@@ -1,0 +1,124 @@
+{
+  "session_id": "95ae1f66",
+  "start_time": "2026-05-22T16:51:59.683321",
+  "total_duration": 177.0,
+  "events": [
+    {
+      "timestamp": "2026-05-22T16:52:27.236982",
+      "elapsed": 27.6,
+      "event_type": "user_message",
+      "data": {
+        "message": "Je suis donc élétête.",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T16:52:27.237484",
+      "elapsed": 27.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T16:52:45.243640",
+      "elapsed": 45.6,
+      "event_type": "user_message",
+      "data": {
+        "message": "Une question sur les...",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T16:52:45.244147",
+      "elapsed": 45.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T16:53:12.518145",
+      "elapsed": 72.8,
+      "event_type": "user_message",
+      "data": {
+        "message": "Je suis dans quelle étape ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T16:53:12.518145",
+      "elapsed": 72.8,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es en étape 1 — Diagnostique. Installe le masque respiratoire au patient, enfile les gants, puis ausculte les deux poumons avec le stéthoscope.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T16:53:39.462317",
+      "elapsed": 99.8,
+      "event_type": "user_message",
+      "data": {
+        "message": "Quel est l'étape suivante ?",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T16:53:39.462449",
+      "elapsed": 99.8,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bravo ! Tu as bien terminé l'étape de diagnostique. La prochaine étape consiste à préparer le patient. On y va ?",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T16:53:56.827219",
+      "elapsed": 117.1,
+      "event_type": "user_message",
+      "data": {
+        "message": "j'ai fini",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T16:53:56.827722",
+      "elapsed": 117.1,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bravo ! Tu as bien préparé le patient. Passons à l'étape suivante : désinfection avec Bétadine.",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-22T16:54:24.678350",
+      "elapsed": 145.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es dans l'étape 3 : Désinfection Bétadine. Imbibe la compresse de Bétadine et désinfecte du centre vers la périphérie.",
+        "operation_id": 3
+      }
+    },
+    {
+      "timestamp": "2026-05-22T16:54:56.707973",
+      "elapsed": 177.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne-moi le bétadine et la compresse stérile.",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T16:54:56.707973",
+      "elapsed": 177.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends la compresse stérile imbibée de Bétadine. Elle est utilisée pour désinfecter la peau avant l'incision.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

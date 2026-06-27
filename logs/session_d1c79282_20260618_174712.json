@@ -1,0 +1,25 @@
+{
+  "session_id": "d1c79282",
+  "start_time": "2026-06-18T17:47:12.974359",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T17:47:12.974542",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "quelsont les outils necessaires pour cette etape",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T17:47:12.975354",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as besoin de Bétadine et de compresses stériles pour désinfecter la zone de drainage thoracique. Assure-toi d'avoir également des gants stériles pour éviter toute contamination.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

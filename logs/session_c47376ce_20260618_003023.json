@@ -1,0 +1,25 @@
+{
+  "session_id": "c47376ce",
+  "start_time": "2026-06-18T00:30:23.072153",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T00:30:23.072393",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "je suis dans quelle étape",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T00:30:23.072825",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu vas maintenant procéder à la percussion des deux poumons pour évaluer la présence de sons anormaux.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "session_id": "b2dbcc8f",
+  "start_time": "2026-05-18T09:37:14.858756",
+  "total_duration": 521.5,
+  "events": [
+    {
+      "timestamp": "2026-05-18T09:37:16.917713",
+      "elapsed": 2.1,
+      "event_type": "step_start",
+      "data": {
+        "operation_id": 1,
+        "operation_name": "Diagnostique"
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:37:47.370914",
+      "elapsed": 32.5,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Super ! Confirme que tu as bien le stéthoscope. Allons-y, ausculte doucement le patient en vérifiant les bruits respiratoires. Tu peux faire ça !",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:38:39.851180",
+      "elapsed": 85.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Salut ! Prends la lame bistouri, c'est ce qu'on attend pour cette étape.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:39:19.919283",
+      "elapsed": 125.1,
+      "event_type": "user_message",
+      "data": {
+        "message": "quel outil je prends ?",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:39:28.853941",
+      "elapsed": 134.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends le stéthoscope pour ausculter le patient. Cela nous permet de détecter des bruits respiratoires anormaux qui pourraient indiquer la nécessité d'un drainage thoracique.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:39:50.785531",
+      "elapsed": 155.9,
+      "event_type": "user_message",
+      "data": {
+        "message": "j'ai fini",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:39:57.333847",
+      "elapsed": 162.5,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bravo ! Tu as bien terminé l'étape de diagnostique. La prochaine étape consiste à préparer le patient. On y va !",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:39:57.334350",
+      "elapsed": 162.5,
+      "event_type": "step_complete",
+      "data": {
+        "operation_id": 1,
+        "duration_seconds": 160,
+        "errors": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:39:57.334350",
+      "elapsed": 162.5,
+      "event_type": "step_start",
+      "data": {
+        "operation_id": 2,
+        "operation_name": "Préparation patient"
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:40:47.554673",
+      "elapsed": 212.7,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Super travail ! Assure-toi bien de palper à l'5e espace intercostal sur la ligne axillaire moyenne. C'est crucial avant toute incision. Tu y es ?",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:41:18.817836",
+      "elapsed": 244.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bien joué ! Assure-toi que c'est bien les gants stériles. Continue avec confiance en palpant le site d'insertion.",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:41:40.877374",
+      "elapsed": 266.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Salut ! Les gants et le champ stérile sont nécessaires pour cette étape. Ne les oublie pas !",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:42:15.871698",
+      "elapsed": 301.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Salut ! Les gants et le champ stérile sont nécessaires pour cette étape. Assure-toi qu'ils sont bien prêts avant de commencer.",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:42:31.412418",
+      "elapsed": 316.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Super travail ! Confirme que c'est bien un champ stérile. Continue comme ça !",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:43:03.574850",
+      "elapsed": 348.7,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Salut ! Il semble que tu n'aies pas encore pris les gants et le champ stérile. Prends-les s'il te plaît. Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:43:06.395613",
+      "elapsed": 351.5,
+      "event_type": "user_message",
+      "data": {
+        "message": "jai fini",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:43:13.211568",
+      "elapsed": 358.4,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bravo ! Tu as bien préparé le patient. À présent, passons à l'étape 3 : désinfection avec Bétadine.",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:43:13.213076",
+      "elapsed": 358.4,
+      "event_type": "step_complete",
+      "data": {
+        "operation_id": 2,
+        "duration_seconds": 195,
+        "errors": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:43:13.214072",
+      "elapsed": 358.4,
+      "event_type": "step_start",
+      "data": {
+        "operation_id": 3,
+        "operation_name": "Désinfection Bétadine"
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:43:43.619601",
+      "elapsed": 388.8,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bien joué ! Confirme que ta compresse stérile est imbibée de bétadine. Continue en faisant des mouvements circulaires du centre vers la périphérie. Tu y es presque !",
+        "operation_id": 3
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:44:01.709832",
+      "elapsed": 406.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Compresse stérile ? Oui, c'est bien celle-là. Continue en imbibant de Bétadine du centre vers la périphérie par mouvements circulaires. Tu y es !",
+        "operation_id": 3
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:44:05.339254",
+      "elapsed": 410.5,
+      "event_type": "user_message",
+      "data": {
+        "message": "jai fini",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:44:13.324814",
+      "elapsed": 418.5,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bien fait ! Tu as bien désinfecté l'endroit avec de la Bétadine. À présent, passons à l'anesthésie locale pour assurer un confort maximal pendant la procédure.",
+        "operation_id": 3
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:44:13.324814",
+      "elapsed": 418.5,
+      "event_type": "step_complete",
+      "data": {
+        "operation_id": 3,
+        "duration_seconds": 60,
+        "errors": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:44:13.324814",
+      "elapsed": 418.5,
+      "event_type": "step_start",
+      "data": {
+        "operation_id": 4,
+        "operation_name": "Anesthésie locale"
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:44:45.207997",
+      "elapsed": 450.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien le bon outil, c'est la Xylocaïne. Continue en infiltrant délicatement. Tu y es presque !",
+        "operation_id": 4
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:44:54.522083",
+      "elapsed": 459.7,
+      "event_type": "user_message",
+      "data": {
+        "message": "data\\raw\\video1\\frame_1921.jpg",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:45:01.396774",
+      "elapsed": 466.5,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 4
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:45:39.205260",
+      "elapsed": 504.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien le bon outil, c'est la Xylocaïne. Continue en faisant toujours attention à aspirer avant d'injecter. Bon travail !",
+        "operation_id": 4
+      }
+    },
+    {
+      "timestamp": "2026-05-18T09:45:56.310076",
+      "elapsed": 521.5,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Hey! Prends ta seringue et ton flacon de xylocaine. On va commencer l'anesthésie locale maintenant.",
+        "operation_id": 4
+      }
+    }
+  ]
+}

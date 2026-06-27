@@ -1,0 +1,43 @@
+{
+  "session_id": "f0338cb2",
+  "start_time": "2026-05-21T15:23:50.457365",
+  "total_duration": 72.7,
+  "events": [
+    {
+      "timestamp": "2026-05-21T15:24:01.798242",
+      "elapsed": 11.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien le masque respiratoire ? Installe-le au patient en premier.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-21T15:24:30.735712",
+      "elapsed": 40.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien le masque respiratoire ? Installe-le maintenant sur le patient. Puis enfile tes gants avant d'ausculter les deux poumons avec le stéthoscope.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-21T15:24:45.051753",
+      "elapsed": 54.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien le masque respiratoire ? Installe-le au patient en premier. Puis enfile tes gants avant d'ausculter avec le stéthoscope.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-21T15:25:03.139082",
+      "elapsed": 72.7,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends le masque respiratoire, le stéthoscope et enfile les gants. Installe le masque au patient puis ausculte ses deux poumons.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

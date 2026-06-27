@@ -1,0 +1,25 @@
+{
+  "session_id": "4e46d1b5",
+  "start_time": "2026-06-18T18:35:59.236286",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:35:59.236413",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne-moi le lin bistouri",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:35:59.239655",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, tu as besoin de : Lame de bistouri.",
+        "operation_id": 5
+      }
+    }
+  ]
+}

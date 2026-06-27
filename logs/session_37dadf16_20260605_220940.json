@@ -1,0 +1,25 @@
+{
+  "session_id": "37dadf16",
+  "start_time": "2026-06-05T22:09:40.456583",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T22:09:40.456582",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Que dois-je faire dans cette étape ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T22:09:40.457581",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, vous devez réaliser une incision franche d'environ 1 cm sur la zone anesthésiée en utilisant la lame de bistouri, en veillant à ce que l'incision soit perpendiculaire à la peau. Assurez-vous que l'incision mesure au moins 1 cm pour garantir un accès adéquat.",
+        "operation_id": 5
+      }
+    }
+  ]
+}

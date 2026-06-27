@@ -1,0 +1,25 @@
+{
+  "session_id": "c183f498",
+  "start_time": "2026-06-07T14:55:08.187827",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-07T14:55:08.194842",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi les outils nécessaires pour cette étape.",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-07T14:55:08.195961",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, vous aurez besoin de gants stériles pour préserver la stérilité du site d'intervention et d'un champ stérile fenêtré pour protéger la zone d'insertion. Ces outils sont essentiels pour minimiser les risques d'infection et garantir une procédure de drainage thoracique sécurisée.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

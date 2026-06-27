@@ -1,0 +1,25 @@
+{
+  "session_id": "2feebe5f",
+  "start_time": "2026-06-18T00:02:14.921253",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T00:02:14.921542",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Si tu ne peux pas le faire.",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T00:02:14.921921",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu vas utiliser le stéthoscope pour écouter les bruits respiratoires et diagnostiquer les problèmes pulmonaires. Ensuite, tu vas évaluer si un drainage thoracique est nécessaire pour traiter l'affection pulmonaire.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

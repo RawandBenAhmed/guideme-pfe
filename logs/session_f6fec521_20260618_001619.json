@@ -1,0 +1,25 @@
+{
+  "session_id": "f6fec521",
+  "start_time": "2026-06-18T00:16:19.245013",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T00:16:19.245218",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "quels sont les outils nécessaires pour cette étape",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T00:16:19.245894",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as besoin de gants stériles et d'un champ stérile fenêtré pour préparer le patient à l'étape 2 du drainage thoracique. Ces outils sont essentiels pour maintenir la stérilité et prévenir les infections.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

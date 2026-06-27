@@ -1,0 +1,25 @@
+{
+  "session_id": "733d4bda",
+  "start_time": "2026-06-18T18:32:50.156617",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:32:50.156838",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "quels sont les outils necessaires pour cette etape",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:32:50.157359",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as besoin d'un lit médicalisé, d'un moniteur cardiaque et d'un système d'oxygénation pour préparer le patient. Il faut également avoir à portée de main les médicaments nécessaires et les équipements de protection individuelle.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

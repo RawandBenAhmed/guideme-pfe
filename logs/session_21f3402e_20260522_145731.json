@@ -1,0 +1,61 @@
+{
+  "session_id": "21f3402e",
+  "start_time": "2026-05-22T14:57:31.633475",
+  "total_duration": 631.7,
+  "events": [
+    {
+      "timestamp": "2026-05-22T15:05:16.904926",
+      "elapsed": 465.3,
+      "event_type": "user_message",
+      "data": {
+        "message": "D'où le moindre stéroscope ?",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T15:05:16.905431",
+      "elapsed": 465.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T15:05:37.552675",
+      "elapsed": 485.9,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne-moi le stéthoscope.",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T15:05:37.552675",
+      "elapsed": 485.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends le stéthoscope pour ausculter le patient. C'est important pour détecter tout signe d'accumulation de liquide dans les poumons.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T15:08:03.376610",
+      "elapsed": 631.7,
+      "event_type": "user_message",
+      "data": {
+        "message": "Je suis dans la première étape. Qu'est-ce que je fais ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T15:08:03.376610",
+      "elapsed": 631.7,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Installe le masque respiratoire au patient, enfile ensuite tes gants et ausculte les deux poumons avec le stéthoscope. Respecte bien l'ordre : masque d'abord, puis gants, puis stéthoscope.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "session_id": "c183f498",
+  "start_time": "2026-06-07T14:55:41.702108",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-07T14:55:41.702107",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi le pédatine et la compresse.",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-07T14:55:41.705620",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape de désinfection, vous aurez besoin d'une compresse stérile et de Bétadine. La compresse stérile servira à appliquer le Bétadine, qui est un antiseptique, permettant ainsi de désinfecter la zone de manière efficace.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

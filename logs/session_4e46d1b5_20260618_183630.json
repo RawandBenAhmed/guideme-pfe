@@ -1,0 +1,25 @@
+{
+  "session_id": "4e46d1b5",
+  "start_time": "2026-06-18T18:36:30.262047",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:36:30.262243",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "pourquoi cette étape",
+        "intent": "why"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:36:30.262721",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu effectues cette étape pour atteindre l'espace intercostal où sera inséré le drainage thoracique. La dissection le long du bord supérieur de la côte permet d'éviter le paquet vasculo-nerveux et ainsi de minimiser les risques de lésions nerveuses ou vasculaires.",
+        "operation_id": 6
+      }
+    }
+  ]
+}

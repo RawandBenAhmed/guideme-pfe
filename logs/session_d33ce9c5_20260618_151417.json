@@ -1,0 +1,25 @@
+{
+  "session_id": "d33ce9c5",
+  "start_time": "2026-06-18T15:14:17.501675",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:14:17.501962",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "quel sont les outils necessaire pour cette etape",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:14:17.503010",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as besoin d'un masque respiratoire, de gants stériles et d'un stéthoscope pour cette étape de diagnostique. Ces outils te permettent de procéder en toute sécurité et avec précision.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

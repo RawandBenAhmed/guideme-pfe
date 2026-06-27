@@ -1,0 +1,25 @@
+{
+  "session_id": "d47eb9ec",
+  "start_time": "2026-06-18T18:04:37.466645",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:04:37.466868",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Sous-titrage Société Radio-Canada",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:04:37.467689",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans le drainage thoracique. Cette question ne concerne pas le drainage thoracique, tu devrais te concentrer sur l'incision cutanée de l'étape 5.",
+        "operation_id": 5
+      }
+    }
+  ]
+}

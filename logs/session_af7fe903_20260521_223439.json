@@ -1,0 +1,25 @@
+{
+  "session_id": "af7fe903",
+  "start_time": "2026-05-21T22:34:39.440112",
+  "total_duration": 29.5,
+  "events": [
+    {
+      "timestamp": "2026-05-21T22:34:49.627350",
+      "elapsed": 10.2,
+      "event_type": "error",
+      "data": {
+        "operation_id": 1,
+        "description": "Mauvais outils : ['ciseau', 'lame_bistouri', 'lame_bistouri', 'lame_bistouri']"
+      }
+    },
+    {
+      "timestamp": "2026-05-21T22:35:08.989160",
+      "elapsed": 29.5,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es dans l'étape 1 : Diagnostique. Tu as pris le mauvais outil plusieurs fois. Prends plutôt un masque respiratoire, des gants et un stéthoscope.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

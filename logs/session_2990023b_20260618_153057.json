@@ -1,0 +1,25 @@
+{
+  "session_id": "2990023b",
+  "start_time": "2026-06-18T15:30:57.795480",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:30:57.796731",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Quels sont les outils nécessaires pour cette étape ?",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:30:57.800831",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as besoin d'un lit médicalisé, d'un système de monitoring et d'un écran de protection pour le patient. Il faut également avoir à portée de main les médicaments nécessaires et les équipements de base pour la prise en charge du patient.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "session_id": "c3676f52",
+  "start_time": "2026-05-27T20:19:17.352490",
+  "total_duration": 56.5,
+  "events": [
+    {
+      "timestamp": "2026-05-27T20:19:50.773292",
+      "elapsed": 33.4,
+      "event_type": "user_message",
+      "data": {
+        "message": "Quelles sont les outils nécessaires pour cet état ?",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T20:19:50.791352",
+      "elapsed": 33.4,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as besoin d'un drain pour cette étape, c'est l'outil essentiel pour insérer dans l'espace pleural. Assure-toi de bien le manipuler pour éviter toute complication.",
+        "operation_id": 7
+      }
+    },
+    {
+      "timestamp": "2026-05-27T20:20:13.897968",
+      "elapsed": 56.5,
+      "event_type": "user_message",
+      "data": {
+        "message": "J'ai terminé cette étape.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T20:20:13.898966",
+      "elapsed": 56.5,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien inséré le drain dans l'espace pleural et l'as orienté vers l'apex, maintenant tu peux passer à l'étape suivante. Félicitations, tu as terminé l'étape 7 avec succès !",
+        "operation_id": 7
+      }
+    }
+  ]
+}

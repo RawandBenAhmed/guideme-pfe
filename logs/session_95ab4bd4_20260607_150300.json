@@ -1,0 +1,25 @@
+{
+  "session_id": "95ab4bd4",
+  "start_time": "2026-06-07T15:03:00.139680",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-07T15:03:00.139679",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "J'ai terminé cette étape.",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-06-07T15:03:00.139679",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Nous passons maintenant à l'étape 2 : Préparation patient, pour laquelle vous aurez besoin de gants stériles et d'un champ stérile fenêtré. Enfilez les gants stériles, palpez le 5e espace intercostal sur la ligne axillaire moyenne pour repérer le site d'insertion, puis installez le champ stérile.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

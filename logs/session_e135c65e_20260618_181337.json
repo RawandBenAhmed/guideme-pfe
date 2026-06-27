@@ -1,0 +1,25 @@
+{
+  "session_id": "e135c65e",
+  "start_time": "2026-06-18T18:13:37.950737",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:13:37.950982",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Qu'est-ce que je fais dans cette étape ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:13:37.951493",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Charge la seringue avec la Xylocaïne 1% et infiltre localement la peau et les plans sous-cutanés.",
+        "operation_id": 4
+      }
+    }
+  ]
+}

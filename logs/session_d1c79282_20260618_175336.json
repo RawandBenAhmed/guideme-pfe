@@ -1,0 +1,25 @@
+{
+  "session_id": "d1c79282",
+  "start_time": "2026-06-18T17:53:36.117156",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T17:53:36.117345",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "pourquoi  la seringue",
+        "intent": "why"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T17:53:36.117708",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu utilises la seringue pour administrer la Xylocaïne 1% de manière précise et contrôlée. Cela permet d'assurer une anesthésie locale efficace tout en minimisant les risques d'effets secondaires.",
+        "operation_id": 4
+      }
+    }
+  ]
+}

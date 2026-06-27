@@ -1,0 +1,25 @@
+{
+  "session_id": "f6fec521",
+  "start_time": "2026-06-18T00:17:07.526503",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T00:17:07.526732",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne moi la recette de pizza",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T00:17:07.527334",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, tu as besoin de : Compresse stérile, Bétadine.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

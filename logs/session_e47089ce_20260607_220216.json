@@ -1,0 +1,25 @@
+{
+  "session_id": "e47089ce",
+  "start_time": "2026-06-07T22:02:16.951512",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-07T22:02:16.951512",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi le stéthoscope.",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-07T22:02:16.954504",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour commencer l'étape de diagnostique, vous devez utiliser le masque respiratoire pour protéger le patient et vous-même, puis enfilez les gants stériles pour maintenir la stérilité. Ensuite, vous pouvez utiliser le stéthoscope pour ausculter les deux poumons du patient.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

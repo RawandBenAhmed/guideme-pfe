@@ -1,0 +1,88 @@
+{
+  "tools": [
+    {
+      "tool_id": "T01",
+      "tool_name": "Stéthoscope",
+      "tool_image": "data/processed/tools/stéthoscope.jpg",
+      "description": "Utilisé pour ausculter le patient et détecter des bruits respiratoires anormaux",
+      "used_in_operations": [1]
+    },
+    {
+      "tool_id": "T02",
+      "tool_name": "Masque respiratoire",
+      "tool_image": "data/processed/tools/masque respiratoire.jpg",
+      "description": "Masque respiratoire placé sur le patient avant toute procédure",
+      "used_in_operations": [1]
+    },
+    {
+      "tool_id": "T03",
+      "tool_name": "Gants stériles",
+      "tool_image": "data/processed/tools/Gants.webp",
+      "description": "Gants stériles portés par le chirurgien pour maintenir l'asepsie",
+      "used_in_operations": [1, 2]
+    },
+    {
+      "tool_id": "T04",
+      "tool_name": "Champ stérile fenêtré",
+      "tool_image": "data/processed/tools/Champs stérile fenêtré.webp",
+      "description": "Champ stérile avec fenêtre placé autour du site opératoire",
+      "used_in_operations": [2]
+    },
+    {
+      "tool_id": "T05",
+      "tool_name": "Compresse stérile",
+      "tool_image": "data/processed/tools/compresse stérile.jpg",
+      "description": "Compresse stérile imbibée de Bétadine pour la désinfection cutanée",
+      "used_in_operations": [3]
+    },
+    {
+      "tool_id": "T06",
+      "tool_name": "Bétadine",
+      "tool_image": "data/processed/tools/betadine.jpg",
+      "description": "Solution antiseptique utilisée pour la désinfection de la peau avant l'incision",
+      "used_in_operations": [3]
+    },
+    {
+      "tool_id": "T07",
+      "tool_name": "Seringue",
+      "tool_image": "data/processed/tools/seringue.jpg",
+      "description": "Seringue utilisée pour injecter l'anesthésique local dans la peau et les tissus sous-cutanés",
+      "used_in_operations": [4]
+    },
+    {
+      "tool_id": "T08",
+      "tool_name": "Xylocaïne 1%",
+      "tool_image": "data/processed/tools/Xylocaïne 1%.jpg",
+      "description": "Anesthésique local injecté pour engourdir la zone opératoire",
+      "used_in_operations": [4]
+    },
+    {
+      "tool_id": "T09",
+      "tool_name": "Lame de bistouri",
+      "tool_image": "data/processed/tools/Lame de bistouri.PNG",
+      "description": "Lame de bistouri utilisée pour réaliser une incision cutanée franche",
+      "used_in_operations": [5]
+    },
+    {
+      "tool_id": "T10",
+      "tool_name": "Ciseau",
+      "tool_image": "data/processed/tools/ciseau.jpg",
+      "description": "Ciseau utilisé pour disséquer les tissus sous-cutanés jusqu'à l'espace intercostal",
+      "used_in_operations": [6]
+    },
+    {
+      "tool_id": "T11",
+      "tool_name": "Drain thoracique",
+      "tool_image": "data/processed/tools/drain.jpg",
+      "description": "Drain thoracique inséré dans l'espace pleural pour évacuer l'air ou le liquide",
+      "used_in_operations": [7]
+    },
+    {
+      "tool_id": "T12",
+      "tool_name": "Système de drainage",
+      "tool_image": "data/processed/tools/systeme_drainage.jpg",
+      "description": "Système de drainage hermétique connecté au drain pour collecter le liquide pleural",
+      "used_in_operations": [8]
+    }
+  ]
+}

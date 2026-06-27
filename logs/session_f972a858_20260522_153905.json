@@ -1,0 +1,70 @@
+{
+  "session_id": "f972a858",
+  "start_time": "2026-05-22T15:39:05.159133",
+  "total_duration": 3574.8,
+  "events": [
+    {
+      "timestamp": "2026-05-22T15:40:10.186018",
+      "elapsed": 65.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Je suis dans la première étape. Qu'est-ce que je fais ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T15:40:10.186018",
+      "elapsed": 65.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Installe le masque respiratoire au patient, enfile ensuite tes gants et ausculte les deux poumons avec le stéthoscope. Respecte bien l'ordre !",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T15:40:49.583987",
+      "elapsed": 104.4,
+      "event_type": "user_message",
+      "data": {
+        "message": "Quel sont les outils à utiliser ?",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T15:40:49.583987",
+      "elapsed": 104.4,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends le masque respiratoire pour protéger toi-même et le patient, les gants stériles pour maintenir l'asepsie, et le stéthoscope pour ausculter le patient. C'est crucial pour diagnostiquer correctement la situation.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T15:43:34.155873",
+      "elapsed": 269.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "4Houpe d'рыв...",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T15:43:34.156377",
+      "elapsed": 269.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T16:38:39.989360",
+      "elapsed": 3574.8,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es dans l'étape 1 : Diagnostique. Installe le masque respiratoire au patient, enfile les gants, puis ausculte les deux poumons avec le stéthoscope.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

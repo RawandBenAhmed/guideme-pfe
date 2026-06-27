@@ -1,0 +1,25 @@
+{
+  "session_id": "e135c65e",
+  "start_time": "2026-06-18T18:16:25.318804",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:16:25.318953",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "je suis dans quelle étape",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:16:25.319482",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es dans l'étape 7 : Insertion du drain.",
+        "operation_id": 7
+      }
+    }
+  ]
+}

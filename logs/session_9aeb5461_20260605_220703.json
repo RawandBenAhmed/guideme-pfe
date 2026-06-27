@@ -1,0 +1,25 @@
+{
+  "session_id": "9aeb5461",
+  "start_time": "2026-06-05T22:07:03.969234",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T22:07:03.969234",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "J'ai terminé cette étape.",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T22:07:03.970231",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Vous avez maintenant terminé l'insertion du drain et vous allez passer à l'étape suivante, qui consiste à connecter le bocal de drainage. Pour cela, vous allez utiliser le système de drainage, qui est l'outil essentiel pour cette nouvelle étape.",
+        "operation_id": 7
+      }
+    }
+  ]
+}

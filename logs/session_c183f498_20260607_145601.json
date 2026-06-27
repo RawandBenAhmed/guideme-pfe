@@ -1,0 +1,25 @@
+{
+  "session_id": "c183f498",
+  "start_time": "2026-06-07T14:56:01.229738",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-07T14:56:01.229737",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi la bétadine.",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-07T14:56:01.231757",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, vous aurez besoin d'une compresse stérile et de Bétadine. La compresse stérile servira à appliquer le Bétadine, qui est un antiseptique utilisé pour désinfecter la zone de drainage thoracique.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

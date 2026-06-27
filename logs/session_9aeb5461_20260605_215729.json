@@ -1,0 +1,25 @@
+{
+  "session_id": "9aeb5461",
+  "start_time": "2026-06-05T21:57:29.621707",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T21:57:29.622704",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Pourquoi en faire l'incision cutanée ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T21:57:29.622704",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, vous devez réaliser une incision franche d'environ 1 cm sur la zone anesthésiée en utilisant la lame de bistouri, en veillant à ce que l'incision soit perpendiculaire à la peau. Assurez-vous que l'incision mesure au moins 1 cm pour garantir un accès adéquat pour la procédure de drainage thoracique.",
+        "operation_id": 5
+      }
+    }
+  ]
+}

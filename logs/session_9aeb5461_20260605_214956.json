@@ -1,0 +1,25 @@
+{
+  "session_id": "9aeb5461",
+  "start_time": "2026-06-05T21:49:56.003909",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T21:49:56.004900",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Quels sont les outils nécessaires pour cette étape ?",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T21:49:56.006894",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour commencer l'étape de diagnostique, vous devez utiliser le masque respiratoire pour protéger le patient et vous-même, ainsi que les gants stériles pour maintenir la stérilité et éviter toute contamination. Ensuite, vous pouvez utiliser le stéthoscope pour ausculter les deux poumons du patient et évaluer son état respiratoire.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

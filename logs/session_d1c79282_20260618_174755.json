@@ -1,0 +1,25 @@
+{
+  "session_id": "d1c79282",
+  "start_time": "2026-06-18T17:47:55.701006",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T17:47:55.701134",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "quesque je fais dans cette etape",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T17:47:55.701764",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Imbibe la compresse de Bétadine et désinfecte du centre vers la périphérie.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

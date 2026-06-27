@@ -1,0 +1,25 @@
+{
+  "session_id": "f6fec521",
+  "start_time": "2026-06-18T00:14:34.270082",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T00:14:34.270317",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "l'hôpital est en train de se réveiller",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T00:14:34.270732",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. \nCette question ne concerne pas directement le drainage thoracique, tu peux me poser une autre question sur le sujet.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

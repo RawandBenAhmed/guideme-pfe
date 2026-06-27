@@ -1,0 +1,82 @@
+{
+  "session_id": "test_abc",
+  "start_time": "2026-05-16T00:35:19.135832",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-05-16T00:35:19.135832",
+      "elapsed": 0.0,
+      "event_type": "step_start",
+      "data": {
+        "operation_id": 1,
+        "operation_name": "Diagnostique"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:35:19.136829",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "quel outil je prends ?",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:35:19.136829",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends le stéthoscope et le masque respiratoire.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:35:19.137827",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "j'ai fini",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:35:19.137827",
+      "elapsed": 0.0,
+      "event_type": "step_complete",
+      "data": {
+        "operation_id": 1,
+        "duration_seconds": 28,
+        "errors": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:35:19.137827",
+      "elapsed": 0.0,
+      "event_type": "step_start",
+      "data": {
+        "operation_id": 2,
+        "operation_name": "Préparation patient"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:35:19.138824",
+      "elapsed": 0.0,
+      "event_type": "error",
+      "data": {
+        "operation_id": 2,
+        "description": "mauvais outil utilisé"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:35:19.139286",
+      "elapsed": 0.0,
+      "event_type": "session_end",
+      "data": {
+        "progress": {
+          "done": 2,
+          "total": 8
+        }
+      }
+    }
+  ]
+}

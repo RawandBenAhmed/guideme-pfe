@@ -1,0 +1,25 @@
+{
+  "session_id": "c47376ce",
+  "start_time": "2026-06-18T00:23:03.263309",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T00:23:03.263517",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "quelle heure est-il",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T00:23:03.264142",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. \nTu devrais te concentrer sur les étapes de diagnostic pour le drainage thoracique.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

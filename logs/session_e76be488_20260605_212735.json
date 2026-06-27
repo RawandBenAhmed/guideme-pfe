@@ -1,0 +1,25 @@
+{
+  "session_id": "e76be488",
+  "start_time": "2026-06-05T21:27:35.046306",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T21:27:35.046306",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "L etudiant a correctement identifié l etape 2. Felicite-le en 1 phrase courte et dis-lui immédiatement quels outils prendre et quelle action effectuer dans cette étape.",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T21:27:35.047304",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape de préparation du patient, vous aurez besoin de gants stériles pour maintenir la stérilité et éviter toute contamination. Vous devrez également utiliser un champ stérile fenêtré pour créer un environnement stérile autour du site d'insertion.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

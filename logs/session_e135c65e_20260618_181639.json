@@ -1,0 +1,25 @@
+{
+  "session_id": "e135c65e",
+  "start_time": "2026-06-18T18:16:39.985677",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:16:39.985862",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Que dois-je faire dans cette étape ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:16:39.986296",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Insère le drain dans l'espace pleural et oriente-le vers l'apex.",
+        "operation_id": 7
+      }
+    }
+  ]
+}

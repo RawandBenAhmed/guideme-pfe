@@ -1,0 +1,25 @@
+{
+  "session_id": "815ea560",
+  "start_time": "2026-06-18T00:45:12.294322",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T00:45:12.294557",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "pourquoi cette étape",
+        "intent": "why"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T00:45:12.302778",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu réalises cette incision pour permettre l'accès à la zone thoracique, comme indiqué par l'action de réaliser une incision franche d'environ 1 cm. L'incision doit être franche et perpendiculaire à la peau pour assurer un accès sécuritaire et efficace, comme le précise l'alerte.",
+        "operation_id": 5
+      }
+    }
+  ]
+}

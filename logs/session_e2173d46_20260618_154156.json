@@ -1,0 +1,25 @@
+{
+  "session_id": "e2173d46",
+  "start_time": "2026-06-18T15:41:56.236006",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:41:56.237248",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donnement légant",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:41:56.243126",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans le drainage thoracique. Cette question ne semble pas être directement liée au drainage thoracique.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

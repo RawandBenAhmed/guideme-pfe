@@ -1,0 +1,25 @@
+{
+  "session_id": "81bb738f",
+  "start_time": "2026-06-05T22:12:05.914240",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T22:12:05.914239",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Que dois-je faire dans cette étape ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T22:12:05.915238",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, vous devez prendre la compresse stérile et l'imbiber de Bétadine, puis désinfecter la zone en partant du centre et en allant vers la périphérie. Il est essentiel de respecter cette direction pour éviter toute contamination, en suivant toujours le mouvement du centre vers la périphérie.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

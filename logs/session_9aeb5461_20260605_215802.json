@@ -1,0 +1,25 @@
+{
+  "session_id": "9aeb5461",
+  "start_time": "2026-06-05T21:58:02.636658",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T21:58:02.636657",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Pourquoi on utilise le lin bistouri ?",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T21:58:02.637654",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour réaliser l'incision cutanée, vous devez utiliser la lame de bistouri, car c'est l'outil requis pour effectuer une incision franche et précise d'environ 1 cm sur la zone anesthésiée. La lame de bistouri est essentielle pour cette étape en raison de sa capacité à effectuer des incisions nettes et perpendiculaires à la peau.",
+        "operation_id": 5
+      }
+    }
+  ]
+}

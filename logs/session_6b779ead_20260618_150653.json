@@ -1,0 +1,25 @@
+{
+  "session_id": "6b779ead",
+  "start_time": "2026-06-18T15:06:53.279133",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:06:53.280729",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne moi le masque respiratoire et le stéthoscope",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:06:53.286221",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, tu as besoin de : Masque respiratoire, Gants stériles, Stéthoscope.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

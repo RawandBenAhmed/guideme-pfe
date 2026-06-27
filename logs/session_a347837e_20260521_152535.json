@@ -1,0 +1,16 @@
+{
+  "session_id": "a347837e",
+  "start_time": "2026-05-21T15:25:35.222427",
+  "total_duration": 27.2,
+  "events": [
+    {
+      "timestamp": "2026-05-21T15:26:02.385025",
+      "elapsed": 27.2,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien compris les étapes ? Commence par installer le masque respiratoire au patient avant de te mettre à l'auscultation avec ton stéthoscope. Mets-toi ensuite des gants après avoir ausculté.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

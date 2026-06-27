@@ -1,0 +1,25 @@
+{
+  "session_id": "ae1dfe5a",
+  "start_time": "2026-06-17T23:56:22.465771",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-17T23:56:22.466015",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi mes masques respiratoires.",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-17T23:56:22.466505",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as besoin d'un masque respiratoire pour commencer, car il est essentiel pour protéger le patient et toi-même des germes et des bactéries. Enfile ensuite les gants stériles pour maintenir la stérilité et éviter toute contamination.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

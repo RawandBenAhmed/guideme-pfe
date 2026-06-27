@@ -1,0 +1,25 @@
+{
+  "session_id": "e76be488",
+  "start_time": "2026-06-05T21:31:10.221598",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T21:31:10.221598",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Quel est mon niveau ?",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T21:31:10.222595",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Vous êtes actuellement à l'étape 8 de la procédure de drainage thoracique, qui consiste à connecter le drain au système de drainage. Votre niveau est donc avancé, car vous avez déjà franchi les premières étapes de la procédure et vous êtes maintenant en train de configurer le système de drainage.",
+        "operation_id": 8
+      }
+    }
+  ]
+}

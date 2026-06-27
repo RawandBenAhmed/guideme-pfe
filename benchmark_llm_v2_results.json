@@ -1,0 +1,32 @@
+{
+  "Qwen 2.5 7B": {
+    "BLEU": 0.059,
+    "ROUGE-1": 0.376,
+    "ROUGE-2": 0.136,
+    "ROUGE-L": 0.245,
+    "Médical": 3.4,
+    "Format%": 100,
+    "Français%": 67,
+    "Latence": 16.29
+  },
+  "Meditron 7B": {
+    "BLEU": 0.016,
+    "ROUGE-1": 0.218,
+    "ROUGE-2": 0.047,
+    "ROUGE-L": 0.136,
+    "Médical": 3.0,
+    "Format%": 17,
+    "Français%": 83,
+    "Latence": 15.57
+  },
+  "LLaMA 3.3 70B": {
+    "BLEU": 0.051,
+    "ROUGE-1": 0.329,
+    "ROUGE-2": 0.161,
+    "ROUGE-L": 0.231,
+    "Médical": 5.8,
+    "Format%": 100,
+    "Français%": 100,
+    "Latence": 0.56
+  }
+}

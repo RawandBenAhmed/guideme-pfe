@@ -1,0 +1,25 @@
+{
+  "session_id": "815ea560",
+  "start_time": "2026-06-18T00:44:45.858356",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T00:44:45.858674",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne-moi la seringue",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T00:44:45.859667",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, tu as besoin de : Seringue, Xylocaïne 1%.",
+        "operation_id": 4
+      }
+    }
+  ]
+}

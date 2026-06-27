@@ -1,0 +1,25 @@
+{
+  "session_id": "11744f42",
+  "start_time": "2026-06-17T16:47:46.739634",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-17T16:47:46.739817",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Sous-titrage Société Radio-Canada",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-17T16:47:46.740650",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis désolé, mais la question sur le sous-titrage de la Société Radio-Canada n'est pas liée à la procédure de drainage thoracique. Je ne peux répondre qu'aux questions spécifiques à cette procédure, comme les étapes de diagnostic ou les outils requis.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

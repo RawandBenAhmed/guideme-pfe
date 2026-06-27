@@ -1,0 +1,115 @@
+{
+  "session_id": "70afa0db",
+  "start_time": "2026-05-27T21:25:41.943635",
+  "total_duration": 2749.3,
+  "events": [
+    {
+      "timestamp": "2026-05-27T21:37:05.882054",
+      "elapsed": 683.9,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne-moi le stéthoscope",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T21:37:05.884050",
+      "elapsed": 683.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as déjà le stéthoscope dans les outils requis, tu peux donc l'utiliser pour ausculter les deux poumons du patient. Maintenant, assure-toi d'avoir installé le masque respiratoire au patient et d'avoir enfilé les gants avant de procéder à l'auscultation.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-27T21:37:51.286371",
+      "elapsed": 729.3,
+      "event_type": "user_message",
+      "data": {
+        "message": "J'ai terminé cette étape.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T21:37:51.287370",
+      "elapsed": 729.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu vas maintenant passer à l'étape 3 : Désinfection Bétadine, où tu devras désinfecter la zone d'intervention. Prends la compresse_sterile et le betadine pour imbiber la compresse et désinfecter du centre vers la périphérie.",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-27T21:38:33.530193",
+      "elapsed": 771.6,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi le bétadine et la compresse.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T21:38:33.530193",
+      "elapsed": 771.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as besoin de la compresse_sterile et du betadine pour procéder à la désinfection, prends-les donc pourimbiber la compresse de Bétadine. N'oublie pas d'imbiber la compresse et de désinfecter du centre vers la périphérie.",
+        "operation_id": 3
+      }
+    },
+    {
+      "timestamp": "2026-05-27T21:39:01.298043",
+      "elapsed": 799.4,
+      "event_type": "user_message",
+      "data": {
+        "message": "J'ai terminé cette étape.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T21:39:01.298043",
+      "elapsed": 799.4,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu vas maintenant passer à l'étape 4 : Anesthésie locale, où tu devras charger la seringue avec de la Xylocaïne 1% pour infiltrer localement la peau et les plans sous-cutanés. Prends la seringue et la Xylocaïne pour commencer cette étape cruciale de la procédure de drainage thoracique.",
+        "operation_id": 3
+      }
+    },
+    {
+      "timestamp": "2026-05-27T21:39:46.734384",
+      "elapsed": 844.8,
+      "event_type": "user_message",
+      "data": {
+        "message": "Qu'est-ce que j'ai fait dans cette étape ?",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T21:39:46.734384",
+      "elapsed": 844.8,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as chargé la seringue avec la Xylocaïne 1% et infiltré localement la peau et les plans sous-cutanés pour réaliser l'anesthésie locale, c'est bien fait ! Maintenant, tu es prêt à passer à l'étape suivante, l'incision cutanée.",
+        "operation_id": 4
+      }
+    },
+    {
+      "timestamp": "2026-05-27T22:11:31.281697",
+      "elapsed": 2749.3,
+      "event_type": "user_message",
+      "data": {
+        "message": "J'ai terminé cette étape.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T22:11:31.281697",
+      "elapsed": 2749.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as terminé avec succès l'étape 1 : Diagnostique, maintenant tu passes à l'étape 2 : Préparation patient. Prends les gants stériles et le champ stérile pour commencer cette étape, où tu devras les utiliser pour préparer le patient au drainage thoracique.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "session_id": "815ea560",
+  "start_time": "2026-06-18T00:46:13.212799",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T00:46:13.213123",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "quel est le nom de cette étape",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T00:46:13.214051",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "L'étape en question s'appelle \"Insertion du drain\". Cette étape fait partie de la procédure de drainage thoracique et utilise un drain thoracique comme outil.",
+        "operation_id": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "session_id": "9aeb5461",
+  "start_time": "2026-06-05T22:07:48.735745",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T22:07:48.735745",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "J'ai terminé cette étape.",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T22:07:48.736743",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Vous avez maintenant terminé avec succès la procédure de drainage thoracique, félicitations ! Vous pouvez maintenant refermer les outils utilisés et vous préparer à la phase de suivi et de surveillance post-intervention, sans nouveaux outils spécifiques nécessaires pour cette étape finale.",
+        "operation_id": 8
+      }
+    }
+  ]
+}

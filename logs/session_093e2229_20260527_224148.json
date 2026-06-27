@@ -1,0 +1,61 @@
+{
+  "session_id": "093e2229",
+  "start_time": "2026-05-27T22:41:48.451367",
+  "total_duration": 1222.5,
+  "events": [
+    {
+      "timestamp": "2026-05-27T22:41:58.035644",
+      "elapsed": 9.6,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi le stéthoscope.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T22:41:58.038635",
+      "elapsed": 9.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as déjà le stéthoscope dans tes outils, il fait partie de l'équipement nécessaire pour cette étape de diagnostique. Maintenant, utilise-le pour ausculter les deux poumons du patient.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-27T22:42:14.857639",
+      "elapsed": 26.4,
+      "event_type": "user_message",
+      "data": {
+        "message": "Quelle est l'étape suivante? Je termine cette étape.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T22:42:14.857639",
+      "elapsed": 26.4,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu vas maintenant passer à l'étape 2 : Préparation patient, où tu devras prendre les gants stériles et le champ stérile pour préparer le patient au drainage thoracique. Enfile les gants stériles et installe le champ stérile pour commencer cette étape cruciale de la procédure.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-27T23:02:10.936882",
+      "elapsed": 1222.5,
+      "event_type": "user_message",
+      "data": {
+        "message": "J'ai terminé cette étape, quelle est l'étape suivante ?",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T23:02:10.939581",
+      "elapsed": 1222.5,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu vas maintenant passer à l'étape 4 : Anesthésie locale, où tu devras administrer une anesthésie locale pour réduire la douleur. Prends la seringue et la xylocaine, et charge la seringue avec la Xylocaïne 1% pour l'infiltre localement dans la peau et les plans sous-cutanés.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

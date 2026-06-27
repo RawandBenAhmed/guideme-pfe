@@ -1,0 +1,97 @@
+{
+  "session_id": "d594747a",
+  "start_time": "2026-05-22T21:36:49.504919",
+  "total_duration": 443.4,
+  "events": [
+    {
+      "timestamp": "2026-05-22T21:37:34.985578",
+      "elapsed": 45.5,
+      "event_type": "user_message",
+      "data": {
+        "message": "Je suis dans quelle étape ?",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T21:37:34.986081",
+      "elapsed": 45.5,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es dans l'étape 4 : Anesthésie locale.",
+        "operation_id": 4
+      }
+    },
+    {
+      "timestamp": "2026-05-22T21:37:58.418940",
+      "elapsed": 68.9,
+      "event_type": "user_message",
+      "data": {
+        "message": "Quelles sont les outils nécessaires pour cette étape ?",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T21:37:58.419457",
+      "elapsed": 68.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as raison, les outils nécessaires pour cette étape sont une seringue et de la xylocaine 1%. Aspire toujours avant d'injecter pour éviter une injection intravasculaire.",
+        "operation_id": 4
+      }
+    },
+    {
+      "timestamp": "2026-05-22T21:38:57.587156",
+      "elapsed": 128.1,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi le ciseau.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T21:38:57.588231",
+      "elapsed": 128.1,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 6
+      }
+    },
+    {
+      "timestamp": "2026-05-22T21:43:44.593402",
+      "elapsed": 415.1,
+      "event_type": "user_message",
+      "data": {
+        "message": "Quels sont les outils nécessaires pour cette étape ?",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T21:43:44.593402",
+      "elapsed": 415.1,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Les outils nécessaires pour cette étape sont le masque respiratoire, les gants, et le stéthoscope. Tu les utilises dans cet ordre : masque d'abord, puis gants, puis stéthoscope.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T21:44:12.900311",
+      "elapsed": 443.4,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi le stéthoscope.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T21:44:12.900311",
+      "elapsed": 443.4,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "session_id": "257ff43a",
+  "start_time": "2026-06-18T15:26:52.545099",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:26:52.546982",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "pourquoi le masque respiratoir",
+        "intent": "why"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:26:52.551081",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu portes le masque respiratoire pour te protéger, toi et le patient, des éventuelles particules respiratoires. C'est pourquoi il est essentiel de le mettre avant de toucher le patient et d'utiliser le stéthoscope, comme indiqué dans l'ordre : masque d'abord, puis gants, puis stéthoscope.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

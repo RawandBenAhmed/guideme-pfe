@@ -1,0 +1,25 @@
+{
+  "session_id": "3b4ea782",
+  "start_time": "2026-06-17T23:46:40.930294",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-17T23:46:40.930863",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "...",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-17T23:46:40.931662",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es à l'étape de diagnostique, tu dois donc installer le masque respiratoire au patient, puis enfiler les gants stériles avant d'utiliser le stéthoscope pour ausculter les poumons. N'oublie pas de respecter l'ordre des actions pour assurer la sécurité du patient et la tienne.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

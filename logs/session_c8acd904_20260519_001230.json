@@ -1,0 +1,43 @@
+{
+  "session_id": "c8acd904",
+  "start_time": "2026-05-19T00:12:30.499710",
+  "total_duration": 183.7,
+  "events": [
+    {
+      "timestamp": "2026-05-19T00:12:32.555922",
+      "elapsed": 2.1,
+      "event_type": "step_start",
+      "data": {
+        "operation_id": 1,
+        "operation_name": "Diagnostique"
+      }
+    },
+    {
+      "timestamp": "2026-05-19T00:15:06.375044",
+      "elapsed": 155.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Salut ! Prends la lame bistouri, c'est ce qu'on attend pour cette étape. Pas d'inquiétude si tu n'as rien détecté dans l'image, on repartira des outils nécessaires.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-19T00:15:24.529723",
+      "elapsed": 174.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "tools?",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-05-19T00:15:34.192887",
+      "elapsed": 183.7,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends ton stéthoscope pour ausculter le patient et un masque respiratoire pour sa sécurité avant toute intervention. C'est important pour détecter tout signe d'insuffisance respiratoire et protéger le patient.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "session_id": "88122173",
+  "start_time": "2026-05-21T12:41:33.024337",
+  "total_duration": 172.4,
+  "events": [
+    {
+      "timestamp": "2026-05-21T12:42:24.929926",
+      "elapsed": 51.9,
+      "event_type": "error",
+      "data": {
+        "operation_id": 1,
+        "description": "Mauvais outils : ['systeme_drainage', 'systeme_drainage', 'systeme_drainage', 'systeme_drainage', 'systeme_drainage', 'drain']"
+      }
+    },
+    {
+      "timestamp": "2026-05-21T12:42:44.076198",
+      "elapsed": 71.1,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Ah non, tu as pris les drains au lieu des bons outils ! Prends plutôt un stethoscope, un masque respiratoire et des gants.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-21T12:44:17.179683",
+      "elapsed": 164.2,
+      "event_type": "user_message",
+      "data": {
+        "message": "j'ai fini",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-05-21T12:44:17.180190",
+      "elapsed": 164.2,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bravo ! Tu as bien terminé l'étape de diagnostique. La prochaine étape consiste à préparer le patient. On y va !",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-21T12:44:25.400779",
+      "elapsed": 172.4,
+      "event_type": "user_message",
+      "data": {
+        "message": "j'ai fini",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-05-21T12:44:25.401289",
+      "elapsed": 172.4,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bravo ! Tu as bien préparé le patient. Passons à l'étape suivante : désinfection avec Bétadine.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

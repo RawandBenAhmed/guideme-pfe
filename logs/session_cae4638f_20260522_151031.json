@@ -1,0 +1,34 @@
+{
+  "session_id": "cae4638f",
+  "start_time": "2026-05-22T15:10:31.080138",
+  "total_duration": 42.9,
+  "events": [
+    {
+      "timestamp": "2026-05-22T15:10:49.667911",
+      "elapsed": 18.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es dans l'étape 1 : Diagnostique. Installe le masque respiratoire au patient, enfile les gants, puis ausculte les deux poumons avec le stéthoscope.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T15:11:14.020272",
+      "elapsed": 42.9,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne-moi le masque respiratoire.",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T15:11:14.020806",
+      "elapsed": 42.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends le masque respiratoire pour protéger toi-même et le patient. C'est important pour éviter toute contamination.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

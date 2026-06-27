@@ -1,0 +1,25 @@
+{
+  "session_id": "e699c182",
+  "start_time": "2026-06-18T18:12:17.989434",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:12:17.989589",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "je suis dans quelle étape",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:12:17.991513",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es dans l'étape 1 : Diagnostique.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "session_id": "44bbe06f",
+  "start_time": "2026-05-21T15:17:07.222560",
+  "total_duration": 187.1,
+  "events": [
+    {
+      "timestamp": "2026-05-21T15:17:22.902633",
+      "elapsed": 15.7,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien le masque respiratoire ? Installe-le au patient en premier. Maintenant, enfile tes gants. Puis ausculte les deux poumons avec ton stéthoscope.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-21T15:17:42.875098",
+      "elapsed": 35.7,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien le masque respiratoire ? Installe-le maintenant sur le patient. Puis enfile tes gants avant d'ausculter les poumons avec le stéthoscope.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-21T15:17:58.615610",
+      "elapsed": 51.4,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends le masque respiratoire, le stéthoscope et enfile les gants. Installe le masque au patient et ausculte ses poumons.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-21T15:18:12.715509",
+      "elapsed": 65.5,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien le masque respiratoire ? Installe-le au patient en premier.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-21T15:18:29.102533",
+      "elapsed": 81.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends le masque respiratoire, l'étudiant. Enfile ensuite tes gants et auscule les deux poumons avec le stéthoscope.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-21T15:20:14.274803",
+      "elapsed": 187.1,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien le masque respiratoire ? Installe-le au patient en premier.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

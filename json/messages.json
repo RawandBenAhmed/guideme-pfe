@@ -1,0 +1,92 @@
+{
+  "messages": [
+    {
+      "operation_id": 1,
+      "messages": {
+        "intro":       "Tu es dans l'étape 1 — Diagnostique. C'est la première étape de la procédure de drainage thoracique.",
+        "tool_prompt": "Prends le Masque respiratoire, les Gants stériles et le Stéthoscope.",
+        "action":      "Installe le masque respiratoire au patient, enfile les gants, puis ausculte les deux poumons avec le stéthoscope.",
+        "wrong_tool":  "Ce n'est pas le bon outil pour cette étape.",
+        "completion":  "Étape 1 terminée — tu passes à l'étape 2 : Préparation patient.",
+        "alert":       "Respecte l'ordre : masque d'abord, puis gants, puis stéthoscope."
+      }
+    },
+    {
+      "operation_id": 2,
+      "messages": {
+        "intro":       "Tu es dans l'étape 2 — Préparation patient.",
+        "tool_prompt": "Prends les Gants stériles chirurgicaux et le Champ stérile fenêtré.",
+        "action":      "Enfile les gants stériles, palpe le 5e espace intercostal sur la ligne axillaire moyenne, repère le site d'insertion et installe le champ stérile.",
+        "wrong_tool":  "Ce n'est pas le bon outil pour cette étape.",
+        "completion":  "Étape 2 terminée — tu passes à l'étape 3 : Désinfection Bétadine.",
+        "alert":       "La localisation précise du site d'insertion est cruciale avant toute incision."
+      }
+    },
+    {
+      "operation_id": 3,
+      "messages": {
+        "intro":       "Tu es dans l'étape 3 — Désinfection Bétadine.",
+        "tool_prompt": "Prends la Compresse stérile et la Bétadine.",
+        "action":      "Imbibe la compresse de Bétadine et désinfecte du centre vers la périphérie.",
+        "wrong_tool":  "Ce n'est pas le bon outil pour cette étape.",
+        "completion":  "Étape 3 terminée — tu passes à l'étape 4 : Anesthésie locale.",
+        "alert":       "Toujours désinfecter du centre vers la périphérie, jamais l'inverse."
+      }
+    },
+    {
+      "operation_id": 4,
+      "messages": {
+        "intro":       "Tu es dans l'étape 4 — Anesthésie locale.",
+        "tool_prompt": "Prends la Seringue et la Xylocaïne 1%.",
+        "action":      "Charge la seringue avec la Xylocaïne 1% et infiltre localement la peau et les plans sous-cutanés.",
+        "wrong_tool":  "Ce n'est pas le bon outil pour cette étape.",
+        "completion":  "Étape 4 terminée — tu passes à l'étape 5 : Incision cutanée.",
+        "alert":       "Aspire toujours avant d'injecter pour éviter une injection intravasculaire."
+      }
+    },
+    {
+      "operation_id": 5,
+      "messages": {
+        "intro":       "Tu es dans l'étape 5 — Incision cutanée.",
+        "tool_prompt": "Prends la Lame de bistouri.",
+        "action":      "Réalise une incision franche d'environ 1 cm sur la zone anesthésiée.",
+        "wrong_tool":  "Ce n'est pas le bon outil pour cette étape.",
+        "completion":  "Étape 5 terminée — tu passes à l'étape 6 : Dissection sous-cutanée.",
+        "alert":       "L'incision doit être franche et perpendiculaire à la peau, d'au moins 1 cm."
+      }
+    },
+    {
+      "operation_id": 6,
+      "messages": {
+        "intro":       "Tu es dans l'étape 6 — Dissection sous-cutanée.",
+        "tool_prompt": "Prends le Ciseau.",
+        "action":      "Effectue 3 mouvements de dissection avec le ciseau pour traverser les tissus sous-cutanés et atteindre l'espace intercostal.",
+        "wrong_tool":  "Ce n'est pas le bon outil pour cette étape.",
+        "completion":  "Étape 6 terminée — tu passes à l'étape 7 : Insertion du drain.",
+        "alert":       "Dissèque toujours le long du bord supérieur de la côte pour éviter le paquet vasculo-nerveux."
+      }
+    },
+    {
+      "operation_id": 7,
+      "messages": {
+        "intro":       "Tu es dans l'étape 7 — Insertion du drain.",
+        "tool_prompt": "Prends le Drain thoracique.",
+        "action":      "Insère le drain dans l'espace pleural et oriente-le vers l'apex.",
+        "wrong_tool":  "Ce n'est pas le bon outil pour cette étape.",
+        "completion":  "Étape 7 terminée — tu passes à l'étape 8 : Connexion bocal de drainage.",
+        "alert":       "Ne force jamais le drain — si tu sens une résistance, retire et repositionne."
+      }
+    },
+    {
+      "operation_id": 8,
+      "messages": {
+        "intro":       "Tu es dans l'étape 8 — Connexion bocal de drainage. C'est la dernière étape.",
+        "tool_prompt": "Prends le Système de drainage.",
+        "action":      "Connecte le drain au système de drainage et vérifie l'étanchéité.",
+        "wrong_tool":  "Ce n'est pas le bon outil pour cette étape.",
+        "completion":  "Procédure complète ! Tu as réussi le drainage thoracique.",
+        "alert":       "Vérifie toujours le bullage dans le bocal après connexion pour confirmer l'étanchéité."
+      }
+    }
+  ]
+}

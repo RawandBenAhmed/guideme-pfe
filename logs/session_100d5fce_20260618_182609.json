@@ -1,0 +1,25 @@
+{
+  "session_id": "100d5fce",
+  "start_time": "2026-06-18T18:26:09.427179",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:26:09.427343",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "pourquoi cette etape",
+        "intent": "why"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:26:09.427801",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu dois localiser avec précision le site d'insertion pour éviter les erreurs et les complications potentielles. Cela te permet de choisir le meilleur emplacement pour l'insertion du drain thoracique et d'assurer une intervention sécuritaire et efficace.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

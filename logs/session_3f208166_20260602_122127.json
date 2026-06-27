@@ -1,0 +1,25 @@
+{
+  "session_id": "3f208166",
+  "start_time": "2026-06-02T12:21:27.415426",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-02T12:21:27.415425",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "quelle est la capitale de France ?",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-02T12:21:27.415425",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis désolé, mais en tant que GuideME, je ne suis pas censé répondre à des questions hors du contexte de la procédure de drainage thoracique. Ma mission est de vous guider à travers les étapes de cette procédure, et je ne dispose pas d'informations sur la capitale de la France dans le cadre de cette procédure.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

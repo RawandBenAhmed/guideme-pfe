@@ -1,0 +1,25 @@
+{
+  "session_id": "d9a5fe7f",
+  "start_time": "2026-06-18T15:47:57.099479",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:47:57.101928",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "je termine",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:47:57.106922",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu passes à l'étape 7 : Insertion du drain. Prends le drain thoracique et insère-le dans l'espace pleural en l'orientant vers l'apex.",
+        "operation_id": 7
+      }
+    }
+  ]
+}

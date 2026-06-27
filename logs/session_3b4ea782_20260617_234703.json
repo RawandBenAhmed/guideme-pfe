@@ -1,0 +1,25 @@
+{
+  "session_id": "3b4ea782",
+  "start_time": "2026-06-17T23:47:03.163208",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-17T23:47:03.163428",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "...",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-17T23:47:03.163833",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es prêt à commencer l'étape de diagnostique, n'oublie pas de mettre le masque respiratoire au patient avant d'enfiler les gants stériles. Ensuite, tu pourras ausculter les deux poumons avec le stéthoscope pour évaluer la situation.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "session_id": "f6fec521",
+  "start_time": "2026-06-18T00:16:42.111900",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T00:16:42.112189",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "quel est le nom de cette étape",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T00:16:42.112689",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "L'étape que tu décris s'appelle la désinfection de la peau avec du Bétadine. Cette étape est cruciale pour prévenir les infections lors du drainage thoracique, tu fais du bon travail !",
+        "operation_id": 3
+      }
+    }
+  ]
+}

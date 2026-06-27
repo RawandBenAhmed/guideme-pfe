@@ -1,0 +1,25 @@
+{
+  "session_id": "100d5fce",
+  "start_time": "2026-06-18T18:28:13.524086",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:28:13.524278",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "une question sur l'étape en cours",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:28:13.524681",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es à l'étape de l'anesthésie locale, c'est ici que le médecin va rendre insensible la zone où sera inséré le drain thoracique. Cette étape est cruciale pour minimiser la douleur que tu pourrais ressentir pendant l'opération, tu vas bien ?",
+        "operation_id": 4
+      }
+    }
+  ]
+}

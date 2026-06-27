@@ -1,0 +1,43 @@
+{
+  "session_id": "73826379",
+  "start_time": "2026-05-30T17:57:34.911579",
+  "total_duration": 427.1,
+  "events": [
+    {
+      "timestamp": "2026-05-30T17:57:53.356034",
+      "elapsed": 18.4,
+      "event_type": "user_message",
+      "data": {
+        "message": "Je suis dans quelle étape ?",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-30T17:57:53.363137",
+      "elapsed": 18.5,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es actuellement dans l'étape 1, la diagnostique, où tu dois installer le masque respiratoire au patient, enfiler les gants et ausculter les deux poumons avec le stéthoscope. C'est une étape cruciale pour évaluer l'état respiratoire du patient avant de passer à l'étape suivante, la préparation patient.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-30T18:04:42.021067",
+      "elapsed": 427.1,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donnez-moi les gants.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-30T18:04:42.021067",
+      "elapsed": 427.1,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu vas maintenant enfiler les gants stériles pour préserver la stérilité de la procédure et éviter toute contamination. Prends soin de les enfiler correctement pour te protéger et protéger ton patient.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

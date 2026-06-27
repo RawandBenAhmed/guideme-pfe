@@ -1,0 +1,25 @@
+{
+  "session_id": "3b4ea782",
+  "start_time": "2026-06-17T23:48:11.044552",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-17T23:48:11.044834",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi le champ stérile.",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-17T23:48:11.046264",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as besoin de gants stériles pour préserver la stérilité de la procédure et éviter toute contamination. Utilise également un champ stérile fenêtré pour protéger la zone d'insertion et faciliter l'accès au site d'insertion.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

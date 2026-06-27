@@ -1,0 +1,174 @@
+{
+  "summary": {
+    "Qwen 2.5 7B": {
+      "score": 5.3,
+      "time": 16.9,
+      "phrases": 2.4,
+      "french": 100
+    },
+    "Meditron 7B": {
+      "score": 4.4,
+      "time": 16.6,
+      "phrases": 5.1,
+      "french": 100
+    },
+    "LLaMA 3.3 70B": {
+      "score": 6.8,
+      "time": 0.5,
+      "phrases": 2.0,
+      "french": 100
+    }
+  },
+  "details": {
+    "Qwen 2.5 7B": {
+      "scores": [
+        6,
+        8,
+        4,
+        4,
+        4,
+        10,
+        4,
+        4,
+        4,
+        5
+      ],
+      "times": [
+        15.3,
+        18.5,
+        15.9,
+        16.8,
+        16.0,
+        14.8,
+        18.0,
+        17.2,
+        19.7,
+        17.1
+      ],
+      "phrases": [
+        2,
+        3,
+        2,
+        1,
+        1,
+        3,
+        2,
+        2,
+        5,
+        3
+      ],
+      "french": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "Meditron 7B": {
+      "scores": [
+        4,
+        6,
+        6,
+        0,
+        4,
+        4,
+        2,
+        4,
+        4,
+        10
+      ],
+      "times": [
+        16.6,
+        16.5,
+        16.0,
+        16.4,
+        16.9,
+        16.7,
+        16.8,
+        17.0,
+        17.7,
+        15.8
+      ],
+      "phrases": [
+        5,
+        5,
+        4,
+        5,
+        7,
+        5,
+        6,
+        5,
+        5,
+        4
+      ],
+      "french": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "LLaMA 3.3 70B": {
+      "scores": [
+        8,
+        8,
+        6,
+        6,
+        8,
+        10,
+        2,
+        6,
+        4,
+        10
+      ],
+      "times": [
+        0.7,
+        0.5,
+        0.5,
+        0.4,
+        0.5,
+        0.4,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "phrases": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "french": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  }
+}

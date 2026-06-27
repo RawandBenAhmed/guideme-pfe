@@ -1,0 +1,215 @@
+{
+  "session_id": "3c45edbe",
+  "start_time": "2026-05-16T22:12:23.329789",
+  "total_duration": 292.9,
+  "events": [
+    {
+      "timestamp": "2026-05-16T22:12:25.407095",
+      "elapsed": 2.1,
+      "event_type": "step_start",
+      "data": {
+        "operation_id": 1,
+        "operation_name": "Diagnostique"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:12:45.149600",
+      "elapsed": 21.8,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Salut ! Tu vas commencer la première étape du diagnostic. Auscule le patient avec ton stéthoscope et vérifie que son masque respiratoire est bien en place. C'est important pour sa sécurité !",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:13:40.291620",
+      "elapsed": 77.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "je suis dans quel etape",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:13:45.772270",
+      "elapsed": 82.4,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es en phase 1 - Diagnostic, c'est la première étape.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:14:04.612909",
+      "elapsed": 101.3,
+      "event_type": "user_message",
+      "data": {
+        "message": "je termine etape 1 on peut passe a letape 2?",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:14:11.382455",
+      "elapsed": 108.1,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Non, on passe à l'étape 2 une fois que vous avez terminé l'auscultation et vérifié le masque respiratoire.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:14:23.637844",
+      "elapsed": 120.3,
+      "event_type": "user_message",
+      "data": {
+        "message": "comment je verife?",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:14:32.929259",
+      "elapsed": 129.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Vérifie que le masque respiratoire est bien ajusté sur le visage du patient et ne laisse pas entrer ni sortir d'air. Ausculte les poumons avec le stéthoscope pour détecter des bruits anormaux.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:14:44.102147",
+      "elapsed": 140.8,
+      "event_type": "user_message",
+      "data": {
+        "message": "cbon",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:14:50.207326",
+      "elapsed": 146.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:15:27.686237",
+      "elapsed": 184.4,
+      "event_type": "user_message",
+      "data": {
+        "message": "terminé",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:15:34.634786",
+      "elapsed": 191.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bravo ! Tu as bien terminé l'étape de diagnostique. La prochaine étape consiste à préparer le patient. On y va !",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:15:34.635292",
+      "elapsed": 191.3,
+      "event_type": "step_complete",
+      "data": {
+        "operation_id": 1,
+        "duration_seconds": 189,
+        "errors": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:15:34.636289",
+      "elapsed": 191.3,
+      "event_type": "step_start",
+      "data": {
+        "operation_id": 2,
+        "operation_name": "Préparation patient"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:15:46.372664",
+      "elapsed": 203.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Salut ! Tu commences la deuxième étape de préparation. Enfile tes gants stériles, palpe le 5e espace intercostal sur la ligne axillaire moyenne pour repérer le site d'insertion, puis installe le champ stérile. On y va !",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:15:59.978447",
+      "elapsed": 216.6,
+      "event_type": "user_message",
+      "data": {
+        "message": "je  prend  le bistouri",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:16:07.219132",
+      "elapsed": 223.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:16:32.275274",
+      "elapsed": 248.9,
+      "event_type": "user_message",
+      "data": {
+        "message": "quel est loutils neccessaire pour cette etape",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:16:37.971366",
+      "elapsed": 254.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Les outils nécessaires pour cette étape sont les gants stériles et le champ stérile fenêtré.",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:16:56.433286",
+      "elapsed": 273.1,
+      "event_type": "user_message",
+      "data": {
+        "message": "quel est lactin?",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:17:02.475355",
+      "elapsed": 279.1,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:17:07.813963",
+      "elapsed": 284.5,
+      "event_type": "user_message",
+      "data": {
+        "message": "quel est laction",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T22:17:16.231362",
+      "elapsed": 292.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Enfile les gants, palpe le 5e espace intercostal sur la ligne axillaire moyenne pour repérer le site d'insertion. Installe ensuite le champ stérile fenêtré.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

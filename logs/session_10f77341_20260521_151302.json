@@ -1,0 +1,52 @@
+{
+  "session_id": "10f77341",
+  "start_time": "2026-05-21T15:13:02.682916",
+  "total_duration": 110.3,
+  "events": [
+    {
+      "timestamp": "2026-05-21T15:13:25.213578",
+      "elapsed": 22.5,
+      "event_type": "error",
+      "data": {
+        "operation_id": 1,
+        "description": "Mauvais outils : ['champ_sterile']"
+      }
+    },
+    {
+      "timestamp": "2026-05-21T15:13:42.984748",
+      "elapsed": 40.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends le stéthoscope à la place du champ stérile. C'est crucial pour ausculter correctement les poumons de l'patient.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-21T15:14:18.422041",
+      "elapsed": 75.7,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien le masque respiratoire ? Parfait ! Installe-le maintenant au patient. Maintenant, enfile tes gants. Puis ausculte les deux poumons avec ton stéthoscope.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-21T15:14:38.205666",
+      "elapsed": 95.5,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien le masque respiratoire ? Installe-le maintenant au patient. Parfait, enfile ensuite tes gants. Commence à ausculter les deux poumons avec ton stéthoscope.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-21T15:14:53.023367",
+      "elapsed": 110.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien le masque respiratoire ? Installe-le maintenant au patient avant de te mettre à l'auscultation.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

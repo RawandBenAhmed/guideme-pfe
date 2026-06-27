@@ -1,0 +1,25 @@
+{
+  "session_id": "d9a5fe7f",
+  "start_time": "2026-06-18T15:47:39.453489",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:47:39.455639",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "quel est le nombre de tâches des étapes de procédure de drainage thoracique",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:47:39.461739",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es à l'étape 6, il y a donc au moins 6 tâches dans la procédure de drainage thoracique. Je t'encourage à poursuivre pour découvrir les étapes suivantes !",
+        "operation_id": 6
+      }
+    }
+  ]
+}

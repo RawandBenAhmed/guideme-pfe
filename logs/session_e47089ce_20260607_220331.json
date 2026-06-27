@@ -1,0 +1,25 @@
+{
+  "session_id": "e47089ce",
+  "start_time": "2026-06-07T22:03:31.546355",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-07T22:03:31.546355",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi la recette de pizza.",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-07T22:03:31.546355",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape de préparation du patient, vous aurez besoin de gants stériles pour maintenir la stérilité et éviter toute contamination. Le champ stérile fenêtré est également requis pour créer un environnement stérile autour du site d'insertion.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

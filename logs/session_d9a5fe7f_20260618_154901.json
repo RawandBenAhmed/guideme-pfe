@@ -1,0 +1,25 @@
+{
+  "session_id": "d9a5fe7f",
+  "start_time": "2026-06-18T15:49:01.221872",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:49:01.222302",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne moi le systheme drainage",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:49:01.225148",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, tu as besoin de : Système de drainage.",
+        "operation_id": 8
+      }
+    }
+  ]
+}

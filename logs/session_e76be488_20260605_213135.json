@@ -1,0 +1,25 @@
+{
+  "session_id": "e76be488",
+  "start_time": "2026-06-05T21:31:35.743993",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T21:31:35.743993",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Que dois-je faire dans cette étape ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T21:31:35.744989",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour commencer, installez le masque respiratoire au patient, puis enfilez les gants stériles pour assurer une hygiène appropriée. Ensuite, utilisez le stéthoscope pour ausculter les deux poumons du patient, en suivant l'ordre précis indiqué pour garantir la sécurité et l'efficacité de l'examen.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

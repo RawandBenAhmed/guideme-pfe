@@ -1,0 +1,25 @@
+{
+  "session_id": "9aeb5461",
+  "start_time": "2026-06-05T22:04:47.196877",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T22:04:47.196876",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Quelle est la recette de pizza ?",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T22:04:47.197873",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis désolé, mais en tant que GuideME spécialisé dans la procédure de drainage thoracique, je ne dispose d'aucune information sur les recettes de pizza. Votre question n'est pas pertinente à l'étape actuelle de dissection sous-cutanée dans la procédure de drainage thoracique.",
+        "operation_id": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "session_id": "9aeb5461",
+  "start_time": "2026-06-05T21:59:16.160579",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T21:59:16.160579",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Pourquoi cette étape est importante et pourquoi on utilise le ciseau ?",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T21:59:16.163570",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape de dissection sous-cutanée, il te faudra utiliser un ciseau, car cet outil est spécifiquement requis pour effectuer les mouvements de dissection nécessaires pour traverser les tissus sous-cutanés. Le ciseau est l'outil idéal pour cette tâche en raison de sa capacité à couper et à disséquer les tissus avec précision.",
+        "operation_id": 6
+      }
+    }
+  ]
+}

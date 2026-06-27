@@ -1,0 +1,25 @@
+{
+  "session_id": "e76be488",
+  "start_time": "2026-06-05T21:29:52.042348",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T21:29:52.042347",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Que dois-je faire dans cette étape ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T21:29:52.043346",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour l'insertion du drain, vous devez insérer le drain thoracique dans l'espace pleural et l'orienter vers l'apex. Il est essentiel de le faire délicatement, sans forcer, et de retirer et repositionner le drain si vous rencontrez une résistance.",
+        "operation_id": 7
+      }
+    }
+  ]
+}

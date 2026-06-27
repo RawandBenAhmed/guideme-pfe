@@ -1,0 +1,25 @@
+{
+  "session_id": "d9a5fe7f",
+  "start_time": "2026-06-18T15:44:49.913241",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:44:49.914824",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "pourquoi les gants stériles",
+        "intent": "why"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:44:49.920228",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu portes des gants stériles pour éviter de contaminer le patient et réduire le risque d'infection. C'est une mesure de précaution essentielle pour préserver la santé et la sécurité du patient pendant l'examen.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

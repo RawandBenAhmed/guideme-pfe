@@ -1,0 +1,25 @@
+{
+  "session_id": "2feebe5f",
+  "start_time": "2026-06-18T00:02:35.132977",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T00:02:35.133269",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Je me suis donc éteinte.",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T00:02:35.133632",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je vois que tu as peut-être mal compris l'étape du diagnostique, tu dois utiliser les outils pour évaluer la situation, pas pour t'éteindre ! Réévalue la situation avec ton masque respiratoire, tes gants stériles et ton stéthoscope.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

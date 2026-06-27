@@ -1,0 +1,25 @@
+{
+  "session_id": "9aeb5461",
+  "start_time": "2026-06-05T22:08:11.861854",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T22:08:11.861853",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Que dois-je faire dans cette étape ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T22:08:11.862854",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, vous devez connecter le drain au système de drainage, en vous assurant de bien vérifier l'étanchéité de la connexion. Il est essentiel de vérifier le bullage dans le bocal après connexion pour confirmer que tout est étanche et fonctionnel.",
+        "operation_id": 8
+      }
+    }
+  ]
+}

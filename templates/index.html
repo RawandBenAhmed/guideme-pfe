@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GuideME — Drainage Thoracique</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0d12;--surface:#13161f;--surface2:#1a1e2a;--border:#252a38;--accent:#4f8ef7;--success:#10b981;--warning:#f59e0b;--danger:#ef4444;--text:#e2e8f0;--muted:#64748b;--font:'DM Sans',sans-serif;--mono:'DM Mono',monospace;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);font-family:var(--font);height:100vh;display:flex;overflow:hidden;}
+.sidebar{width:220px;min-width:220px;background:var(--surface);border-right:1px solid var(--border);display:flex;flex-direction:column;padding:16px 13px;}
+.logo{display:flex;align-items:center;gap:9px;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--border);}
+.logo-icon{width:32px;height:32px;border-radius:9px;background:var(--accent);display:flex;align-items:center;justify-content:center;font-size:15px;}
+.logo-name{font-size:14px;font-weight:600;}
+.logo-sub{font-size:10px;color:var(--muted);}
+.sec{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:7px;}
+.score-box{background:var(--surface2);border:1px solid var(--border);border-radius:9px;padding:9px 11px;margin-bottom:13px;display:grid;grid-template-columns:1fr 1fr;gap:6px;}
+.score-item{text-align:center;}
+.score-val{font-size:22px;font-weight:700;font-family:var(--mono);color:var(--accent);}
+.score-lbl{font-size:9px;color:var(--muted);}
+.steps-list{display:flex;flex-direction:column;gap:2px;flex:1;overflow-y:auto;}
+.step-item{display:flex;align-items:center;gap:7px;padding:6px 7px;border-radius:6px;font-size:11px;color:var(--muted);}
+.step-item.active{background:rgba(79,142,247,.1);color:var(--accent);font-weight:500;border:1px solid rgba(79,142,247,.2);}
+.step-num{width:17px;height:17px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:600;flex-shrink:0;background:var(--border);color:var(--muted);}
+.step-item.active .step-num{background:var(--accent);color:#fff;}
+.bottom-side{margin-top:auto;padding-top:11px;border-top:1px solid var(--border);}
+.sess-row{display:flex;justify-content:space-between;font-size:10px;margin-bottom:3px;}
+.sess-row span:first-child{color:var(--muted);}
+.btn-reset{margin-top:7px;padding:6px;border-radius:7px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:11px;cursor:pointer;font-family:var(--font);width:100%;transition:all .2s;}
+.btn-reset:hover{border-color:var(--danger);color:var(--danger);}
+.main{flex:1;display:flex;flex-direction:column;overflow:hidden;}
+.content{flex:1;display:grid;grid-template-columns:1fr 1fr;overflow:hidden;}
+.left{padding:14px;border-right:1px solid var(--border);display:flex;flex-direction:column;gap:9px;overflow-y:auto;}
+.vr-wrap{border-radius:11px;overflow:hidden;border:1px solid var(--border);background:var(--surface2);aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;position:relative;}
+.vr-wrap img{width:100%;height:100%;object-fit:cover;}
+.step-badge{position:absolute;top:8px;left:8px;background:rgba(79,142,247,.9);color:#fff;font-size:11px;padding:3px 10px;border-radius:6px;font-family:var(--mono);}
+.timer-row{display:flex;align-items:center;gap:7px;}
+.timer-bg{flex:1;background:var(--border);border-radius:99px;height:5px;overflow:hidden;}
+.timer-fill{height:100%;border-radius:99px;background:var(--accent);transition:width 1s linear,background .3s;}
+.timer-txt{font-size:11px;font-family:var(--mono);color:var(--muted);min-width:26px;text-align:right;}
+.steps-quiz{display:grid;grid-template-columns:1fr 1fr;gap:5px;}
+.sbtn{padding:7px 8px;border-radius:7px;border:1px solid var(--border);background:var(--surface2);color:var(--text);font-size:11px;cursor:pointer;font-family:var(--font);transition:all .2s;text-align:left;}
+.sbtn:hover:not(:disabled){border-color:var(--accent);color:var(--accent);}
+.sbtn.correct-ans{background:rgba(16,185,129,.15);border-color:var(--success);color:var(--success);}
+.sbtn.wrong-ans{background:rgba(239,68,68,.15);border-color:var(--danger);color:var(--danger);}
+.sbtn:disabled{opacity:.5;cursor:not-allowed;}
+.btn-nouvelle{padding:7px;border-radius:7px;background:var(--accent);color:#fff;border:none;font-size:12px;cursor:pointer;font-family:var(--font);font-weight:500;width:100%;}
+.btn-nouvelle:disabled{opacity:.5;cursor:not-allowed;}
+.vocal{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:9px 11px;display:flex;flex-direction:column;gap:6px;}
+.vocal-title{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;}
+.vocal-row{display:flex;align-items:center;gap:7px;}
+.btn-mic{width:34px;height:34px;border-radius:50%;border:1px solid var(--border);background:var(--surface);color:var(--muted);font-size:15px;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.btn-mic:hover{border-color:var(--accent);color:var(--accent);}
+.btn-mic.recording{background:var(--danger);border-color:var(--danger);color:#fff;animation:pulse 1s infinite;}
+.tbox{flex:1;font-size:11px;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:6px 8px;min-height:30px;font-family:var(--mono);}
+
+/* ── RIGHT ── */
+.right{display:flex;flex-direction:column;overflow:hidden;}
+.agent-bubble{padding:10px 14px;border-bottom:1px solid var(--border);display:flex;gap:9px;flex-shrink:0;background:var(--surface);}
+.agent-av{width:28px;height:28px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;transition:all .3s;}
+.agent-av.speaking{background:var(--success);animation:speakP .6s infinite alternate;}
+.agent-name{font-size:9px;color:var(--muted);margin-bottom:2px;text-transform:uppercase;letter-spacing:1px;}
+.agent-txt{font-size:12px;line-height:1.5;color:var(--text);}
+.waves{display:none;align-items:center;gap:3px;height:12px;margin-bottom:3px;}
+.waves.show{display:flex;}
+.wave{width:3px;border-radius:99px;background:var(--success);animation:wave .8s infinite ease-in-out;}
+.wave:nth-child(1){height:4px;animation-delay:0s;}
+.wave:nth-child(2){height:9px;animation-delay:.1s;}
+.wave:nth-child(3){height:12px;animation-delay:.2s;}
+.wave:nth-child(4){height:9px;animation-delay:.3s;}
+.wave:nth-child(5){height:4px;animation-delay:.4s;}
+
+/* ── CHAT HISTORY ── */
+.chat-history{flex:1;overflow-y:auto;padding:10px 14px;display:flex;flex-direction:column;gap:8px;}
+.chat-msg{display:flex;flex-direction:column;gap:2px;}
+.chat-msg.user{align-items:flex-end;}
+.chat-msg.agent{align-items:flex-start;}
+.chat-bubble{padding:8px 12px;border-radius:14px;font-size:12px;line-height:1.5;max-width:80%;}
+.chat-msg.user .chat-bubble{background:var(--accent);color:#fff;border-bottom-right-radius:3px;}
+.chat-msg.agent .chat-bubble{background:var(--surface2);border:1px solid var(--border);color:var(--text);border-bottom-left-radius:3px;}
+.chat-who{font-size:9px;color:var(--muted);padding:0 4px;}
+
+/* Message outils dans le chat */
+.chat-tools-msg{align-self:flex-start;max-width:90%;}
+.chat-tools-bubble{background:var(--surface2);border:1px solid var(--accent);border-radius:14px;border-bottom-left-radius:3px;padding:10px 12px;}
+.chat-tools-label{font-size:9px;color:var(--accent);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;font-weight:600;}
+.chat-tools-grid{display:flex;gap:8px;flex-wrap:wrap;}
+.chat-tool-card{display:flex;flex-direction:column;align-items:center;gap:3px;min-width:60px;max-width:80px;}
+.chat-tool-card img{width:100%;max-height:55px;object-fit:contain;border-radius:6px;background:var(--surface);padding:3px;}
+.chat-tool-card-name{font-size:9px;color:var(--muted);text-align:center;font-family:var(--mono);}
+
+/* ── INPUT ── */
+.chat-input-area{border-top:1px solid var(--border);padding:10px 14px;display:flex;flex-direction:column;gap:7px;flex-shrink:0;}
+.chat-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;}
+.chat-row{display:flex;gap:6px;align-items:center;}
+.chat-in{flex:1;padding:8px 11px;border-radius:8px;border:1px solid var(--border);background:var(--surface2);color:var(--text);font-size:12px;font-family:var(--font);outline:none;}
+.chat-in:focus{border-color:var(--accent);}
+.chat-in::placeholder{color:var(--muted);}
+.btn-send{padding:8px 14px;border-radius:8px;background:var(--accent);color:#fff;border:none;font-size:12px;cursor:pointer;font-family:var(--font);font-weight:500;}
+.btn-upload-img{width:32px;height:32px;border-radius:8px;border:1px solid var(--border);background:var(--surface2);color:var(--muted);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0;}
+.btn-upload-img:hover{border-color:var(--accent);color:var(--accent);}
+#img-input{display:none;}
+.img-preview-wrap{display:none;align-items:center;gap:8px;padding:5px 8px;border-radius:8px;border:1px solid var(--accent);background:var(--surface2);}
+.img-preview-wrap.show{display:flex;}
+.img-preview-wrap img{height:40px;width:40px;object-fit:cover;border-radius:6px;}
+.img-preview-info{flex:1;font-size:10px;color:var(--muted);}
+.btn-remove-img{background:none;border:none;color:var(--danger);font-size:14px;cursor:pointer;}
+
+.overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:100;align-items:center;justify-content:center;flex-direction:column;gap:11px;}
+.overlay.show{display:flex;}
+.spinner{width:36px;height:36px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;}
+.overlay-txt{font-size:12px;color:var(--muted);}
+.feedback{display:none;position:fixed;top:18px;left:50%;transform:translateX(-50%);padding:10px 20px;border-radius:9px;font-size:13px;font-weight:500;z-index:200;white-space:nowrap;}
+.feedback.show{display:block;animation:fadeIn .3s ease;}
+.feedback.ok{background:var(--success);color:#000;}
+.feedback.ko{background:var(--danger);color:#fff;}
+.feedback.hint{background:var(--warning);color:#000;}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:300;align-items:center;justify-content:center;}
+.modal-overlay.show{display:flex;animation:fadeIn .4s ease;}
+.modal{background:var(--surface);border-radius:16px;padding:36px 40px;max-width:480px;width:90%;text-align:center;border:1px solid var(--border);}
+.modal-emoji{font-size:56px;margin-bottom:12px;}
+.modal-niveau{font-size:28px;font-weight:700;margin-bottom:8px;}
+.modal-msg{font-size:14px;color:var(--muted);margin-bottom:24px;line-height:1.6;}
+.modal-stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:28px;}
+.modal-stat{background:var(--surface2);border-radius:10px;padding:12px 8px;}
+.modal-stat-val{font-size:20px;font-weight:700;font-family:var(--mono);}
+.modal-stat-lbl{font-size:10px;color:var(--muted);margin-top:3px;}
+.btn-recommencer{padding:12px 28px;border-radius:10px;background:var(--accent);color:#fff;border:none;font-size:14px;cursor:pointer;font-family:var(--font);font-weight:600;}
+
+@keyframes spin{to{transform:rotate(360deg);}}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}
+@keyframes speakP{from{transform:scale(1)}to{transform:scale(1.15)}}
+@keyframes wave{0%,100%{transform:scaleY(.5)}50%{transform:scaleY(1)}}
+</style>
+</head>
+<body>
+
+<aside class="sidebar">
+  <div class="logo">
+    <div class="logo-icon">🏥</div>
+    <div><div class="logo-name">GuideME</div><div class="logo-sub">Drainage thoracique VR</div></div>
+  </div>
+  <div class="sec">Score</div>
+  <div class="score-box">
+    <div class="score-item"><div class="score-val" id="score-val">0</div><div class="score-lbl">Correct</div></div>
+    <div class="score-item"><div class="score-val" id="total-val">0</div><div class="score-lbl">Total</div></div>
+  </div>
+  <div class="sec">Étapes</div>
+  <div class="steps-list">
+    {% for id, name in step_names.items() %}
+    <div class="step-item" id="si-{{ id }}">
+      <div class="step-num">{{ id }}</div>{{ name }}
+    </div>
+    {% endfor %}
+  </div>
+  <div class="bottom-side">
+    <div class="sess-row"><span>Session</span><span>{{ progress.session_id }}</span></div>
+    <button class="btn-reset" onclick="resetSession()">↺ Recommencer</button>
+  </div>
+</aside>
+
+<main class="main">
+  <div class="content">
+    <div class="left">
+      <div class="sec">Image VR — Identifie l'étape</div>
+      <div class="vr-wrap" id="vr-wrap"><div style="font-size:12px;color:var(--muted)">Chargement...</div></div>
+      <div class="timer-row">
+        <div class="timer-bg"><div class="timer-fill" id="timer-fill" style="width:100%"></div></div>
+        <div class="timer-txt" id="timer-txt">20s</div>
+      </div>
+      <div class="steps-quiz">
+        {% for id, name in step_names.items() %}
+        <button class="sbtn" id="sbtn-{{ id }}" onclick="checkStep({{ id }})">{{ id }}. {{ name }}</button>
+        {% endfor %}
+      </div>
+      <button class="btn-nouvelle" id="btn-nv" onclick="loadNewImage()" disabled>🔄 Nouvelle image</button>
+      <div class="vocal">
+        <div class="vocal-title">🎤 Parle à GuideME</div>
+        <div class="vocal-row">
+          <button class="btn-mic" id="btn-mic" onclick="toggleMic()">🎤</button>
+          <div class="tbox" id="tbox">Clique sur le micro et parle...</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <!-- Dernière réponse -->
+      <div class="agent-bubble">
+        <div class="agent-av" id="agent-av">🤖</div>
+        <div style="flex:1">
+          <div class="agent-name">GuideME — Hortense</div>
+          <div class="waves" id="waves"><div class="wave"></div><div class="wave"></div><div class="wave"></div><div class="wave"></div><div class="wave"></div></div>
+          <div class="agent-txt" id="agent-txt">Identifie l'étape de la procédure affichée.</div>
+        </div>
+      </div>
+
+      <!-- Discussion complète -->
+      <div class="chat-history" id="chat-history"></div>
+
+      <!-- Saisie -->
+      <div class="chat-input-area">
+        <div class="chat-label">💬 Pose une question — ou dis "j'ai fini"</div>
+        <div class="img-preview-wrap" id="img-preview-wrap">
+          <img id="img-preview" src="" alt="preview">
+          <div class="img-preview-info"><strong id="img-preview-name">image.jpg</strong></div>
+          <button class="btn-remove-img" onclick="removeImage()">✕</button>
+        </div>
+        <div class="chat-row">
+          <button class="btn-upload-img" onclick="document.getElementById('img-input').click()" title="Envoyer une image">🖼️</button>
+          <input type="file" id="img-input" accept="image/*" onchange="handleImageSelect(event)">
+          <input class="chat-in" id="chat-in"
+            placeholder="Ex: Que faire ? Quels outils ? J'ai fini..."
+            onkeydown="if(event.key==='Enter') sendChat()">
+          <button class="btn-send" onclick="sendChat()">Envoyer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="modal-overlay" id="modal-niveau">
+  <div class="modal">
+    <div class="modal-emoji" id="modal-emoji">🏆</div>
+    <div class="modal-niveau" id="modal-niveau-txt" style="color:var(--success)">Avancé</div>
+    <div class="modal-msg" id="modal-msg"></div>
+    <div class="modal-stats">
+      <div class="modal-stat"><div class="modal-stat-val" id="mn-precision" style="color:var(--accent)">0%</div><div class="modal-stat-lbl">Précision</div></div>
+      <div class="modal-stat"><div class="modal-stat-val" id="mn-temps" style="color:var(--warning)">0s</div><div class="modal-stat-lbl">Temps moyen</div></div>
+      <div class="modal-stat"><div class="modal-stat-val" id="mn-questions" style="color:var(--muted)">0</div><div class="modal-stat-lbl">Questions posées</div></div>
+    </div>
+    <button class="btn-recommencer" onclick="resetSession()">↺ Recommencer</button>
+  </div>
+</div>
+
+<div class="overlay" id="overlay"><div class="spinner"></div><div class="overlay-txt" id="overlay-txt">Chargement...</div></div>
+<div class="feedback" id="feedback"></div>
+
+<script>
+let currentCorrectId=0,timerInterval=null,timerSec=20,answered=false;
+let isRecording=false,mediaRecorder=null,audioChunks=[],speakTimer=null,imageLoaded=false;
+let selectedImageFile=null;
+
+window.onload = () => loadNewImage();
+
+// ── AJOUTER MESSAGE TEXTE DANS LA DISCUSSION ─────────────────
+function addChatMessage(text, role){
+  const history = document.getElementById('chat-history');
+  const div = document.createElement('div');
+  div.className = 'chat-msg ' + role;
+  const who = document.createElement('div');
+  who.className = 'chat-who';
+  who.textContent = role === 'user' ? 'Vous' : 'GuideME';
+  const bubble = document.createElement('div');
+  bubble.className = 'chat-bubble';
+  bubble.textContent = text;
+  div.appendChild(who);
+  div.appendChild(bubble);
+  history.appendChild(div);
+  history.scrollTop = history.scrollHeight;
+}
+
+// ── AJOUTER OUTILS DANS LA DISCUSSION ────────────────────────
+function addToolsMessage(names, images){
+  const history = document.getElementById('chat-history');
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'chat-msg agent';
+
+  const who = document.createElement('div');
+  who.className = 'chat-who';
+  who.textContent = 'GuideME';
+
+  const bubble = document.createElement('div');
+  bubble.className = 'chat-tools-bubble';
+
+  const label = document.createElement('div');
+  label.className = 'chat-tools-label';
+  label.textContent = '🔧 Outils requis';
+
+  const grid = document.createElement('div');
+  grid.className = 'chat-tools-grid';
+
+  names.forEach((name, i) => {
+    if(!images[i]) return;
+    const card = document.createElement('div');
+    card.className = 'chat-tool-card';
+    card.innerHTML =
+      '<img src="' + images[i] + '" alt="' + name + '">' +
+      '<div class="chat-tool-card-name">' + name.replace(/_/g,' ') + '</div>';
+    grid.appendChild(card);
+  });
+
+  bubble.appendChild(label);
+  bubble.appendChild(grid);
+  wrapper.appendChild(who);
+  wrapper.appendChild(bubble);
+  history.appendChild(wrapper);
+  history.scrollTop = history.scrollHeight;
+}
+
+// ── IMAGE UPLOAD ──────────────────────────────────────────────
+function handleImageSelect(event){
+  const file = event.target.files[0];
+  if(!file) return;
+  selectedImageFile = file;
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    document.getElementById('img-preview').src = e.target.result;
+    document.getElementById('img-preview-name').textContent = file.name;
+    document.getElementById('img-preview-wrap').classList.add('show');
+  };
+  reader.readAsDataURL(file);
+  event.target.value = '';
+}
+
+function removeImage(){
+  selectedImageFile = null;
+  document.getElementById('img-preview-wrap').classList.remove('show');
+  document.getElementById('img-preview').src = '';
+}
+
+async function analyzeImage(file){
+  const form = new FormData();
+  form.append('image', file);
+  form.append('current_step_id', currentCorrectId);
+  addChatMessage('📷 Image envoyée', 'user');
+  showOverlay("Analyse de l'image...");
+  try{
+    const res = await fetch('/analyze_image', {method:'POST', body:form});
+    const data = await res.json();
+    updateAgent(data.response);
+    addChatMessage(data.response, 'agent');
+  }catch(e){
+    updateAgent("Erreur lors de l'analyse.");
+    addChatMessage("Erreur lors de l'analyse.", 'agent');
+  }finally{
+    hideOverlay();
+    removeImage();
+  }
+}
+
+// ── CHAT ─────────────────────────────────────────────────────
+async function sendChat(msg){
+  if(selectedImageFile){
+    await analyzeImage(selectedImageFile);
+    return;
+  }
+  const input = document.getElementById('chat-in');
+  const text = msg || input.value.trim();
+  if(!text) return;
+  input.value = '';
+  if(currentCorrectId===0){updateAgent("Charge d'abord une image.");return;}
+
+  addChatMessage(text, 'user');
+  showOverlay('GuideME réfléchit...');
+
+  try{
+    const res=await fetch('/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:text,current_step_id:currentCorrectId})});
+    const data=await res.json();
+
+    updateAgent(data.response);
+
+    if(data.intent === "tool" && data.tool_images && data.tool_images.length > 0){
+      // Outils → affiche images dans la discussion SANS texte
+      addToolsMessage(data.tool_names, data.tool_images);
+    } else {
+      // Autre → texte dans la discussion
+      addChatMessage(data.response, 'agent');
+    }
+
+    if(data.next_step && data.next_image){
+      setTimeout(()=>{
+        currentCorrectId=data.next_correct_id;
+        highlightStep(data.next_correct_id);
+        const wrap=document.getElementById('vr-wrap');
+        wrap.innerHTML='';
+        const img=document.createElement('img');
+        img.src=data.next_image;
+        img.style='width:100%;height:100%;object-fit:cover;';
+        wrap.appendChild(img);
+        const badge=document.createElement('div');
+        badge.className='step-badge';
+        badge.textContent='Étape '+data.next_correct_id+' / 8';
+        wrap.appendChild(badge);
+        resetButtons(); answered=false; imageLoaded=true;
+        stopTimer(); startTimer();
+        showFeedback('➡️ Étape '+data.next_step.id+' : '+data.next_step.name,'hint');
+      },2500);
+    }
+    if(data.finished && data.niveau) showNiveau(data.niveau);
+  }catch(e){
+    updateAgent("Erreur. Réessaie.");
+    addChatMessage("Erreur. Réessaie.", 'agent');
+  }finally{hideOverlay();}
+}
+
+// ── QUIZ VR ──────────────────────────────────────────────────
+async function loadNewImage(){
+  showOverlay("Chargement...");
+  resetButtons(); stopTimer();
+  answered=false; imageLoaded=false;
+  document.getElementById('btn-nv').disabled=true;
+  document.getElementById('agent-txt').textContent="Identifie l'étape affichée.";
+  try{
+    const res=await fetch('/random_image');
+    const data=await res.json();
+    if(data.error){hideOverlay();return;}
+    currentCorrectId=data.correct_id;
+    highlightStep(data.correct_id);
+    const wrap=document.getElementById('vr-wrap');
+    wrap.innerHTML='';
+    const img=document.createElement('img');
+    img.onload=()=>{hideOverlay();startTimer();imageLoaded=true;document.getElementById('btn-nv').disabled=false;};
+    img.onerror=hideOverlay;
+    img.src=data.image;
+    wrap.appendChild(img);
+    const badge=document.createElement('div');
+    badge.className='step-badge';
+    badge.textContent='Étape '+data.correct_id+' / 8';
+    wrap.appendChild(badge);
+  }catch(e){hideOverlay();}
+}
+
+function highlightStep(id){
+  document.querySelectorAll('.step-item').forEach(el=>el.classList.remove('active'));
+  const el=document.getElementById('si-'+id);
+  if(el) el.classList.add('active');
+}
+
+function startTimer(){
+  timerSec=20; updateTimerUI();
+  timerInterval=setInterval(async()=>{
+    timerSec--; updateTimerUI();
+    if(timerSec<=0){stopTimer();if(!answered)await triggerTimeout();}
+  },1000);
+}
+function stopTimer(){clearInterval(timerInterval);timerInterval=null;}
+function updateTimerUI(){
+  const pct=(timerSec/20)*100;
+  const fill=document.getElementById('timer-fill');
+  fill.style.width=pct+'%';
+  fill.style.background=timerSec>10?'var(--accent)':timerSec>5?'var(--warning)':'var(--danger)';
+  document.getElementById('timer-txt').textContent=timerSec+'s';
+}
+
+async function triggerTimeout(){
+  answered=true; disableButtons();
+  showFeedback('⏰ Temps écoulé !','hint');
+  showOverlay("GuideME réfléchit...");
+  try{
+    const res=await fetch('/timeout_hint',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({correct_id:currentCorrectId})});
+    const data=await res.json();
+    updateAgent(data.message);
+    addChatMessage(data.message, 'agent');
+    const btn=document.getElementById('sbtn-'+currentCorrectId);
+    if(btn) btn.classList.add('correct-ans');
+  }catch(e){}finally{hideOverlay();}
+}
+
+async function checkStep(clickedId){
+  if(answered||!imageLoaded) return;
+  answered=true; stopTimer(); disableButtons();
+  showOverlay("GuideME réfléchit...");
+  try{
+    const res=await fetch('/check_step',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({clicked_id:clickedId,correct_id:currentCorrectId})});
+    const data=await res.json();
+    const cb=document.getElementById('sbtn-'+clickedId);
+    const cr=document.getElementById('sbtn-'+currentCorrectId);
+
+    if(data.correct){
+      if(cb) cb.classList.add('correct-ans');
+      showFeedback('✅ Bravo !','ok');
+      updateAgent('Bravo ! Bonne réponse.');
+      addChatMessage('Bravo ! Bonne réponse.', 'agent');
+    } else {
+      if(cb) cb.classList.add('wrong-ans');
+      if(cr) cr.classList.add('correct-ans');
+      showFeedback('❌ Incorrect','ko');
+      updateAgent(data.message);
+      addChatMessage(data.message, 'agent');
+    }
+
+    document.getElementById('score-val').textContent=data.score;
+    document.getElementById('total-val').textContent=data.total;
+    if(data.finished && data.niveau) showNiveau(data.niveau);
+  }catch(e){}finally{hideOverlay();}
+}
+
+function showNiveau(n){
+  document.getElementById('modal-emoji').textContent=n.emoji;
+  document.getElementById('modal-niveau-txt').textContent=n.niveau;
+  document.getElementById('modal-niveau-txt').style.color=n.color;
+  document.getElementById('modal-msg').textContent=n.message;
+  document.getElementById('mn-precision').textContent=n.precision+'%';
+  document.getElementById('mn-temps').textContent=n.temps_moyen+'s';
+  document.getElementById('mn-questions').textContent=n.questions;
+  document.getElementById('modal-niveau').classList.add('show');
+}
+
+function resetButtons(){
+  document.querySelectorAll('.sbtn').forEach(btn=>{btn.classList.remove('correct-ans','wrong-ans');btn.disabled=false;});
+}
+function disableButtons(){document.querySelectorAll('.sbtn').forEach(btn=>btn.disabled=true);}
+
+function updateAgent(text){
+  document.getElementById('agent-txt').textContent=text;
+  setSpeaking(true); clearTimeout(speakTimer);
+  speakTimer=setTimeout(()=>setSpeaking(false),Math.max(2000,text.split(' ').length*400));
+}
+function setSpeaking(on){
+  document.getElementById('agent-av').classList.toggle('speaking',on);
+  document.getElementById('waves').classList.toggle('show',on);
+}
+
+function showFeedback(msg,type){
+  const el=document.getElementById('feedback');
+  el.textContent=msg; el.className='feedback show '+type;
+  setTimeout(()=>el.classList.remove('show'),3500);
+}
+
+async function toggleMic(){if(!isRecording){await startMic();}else{stopMic();}}
+async function startMic(){
+  try{
+    const stream=await navigator.mediaDevices.getUserMedia({audio:true});
+    mediaRecorder=new MediaRecorder(stream); audioChunks=[];
+    mediaRecorder.ondataavailable=e=>{if(e.data.size>0) audioChunks.push(e.data);};
+    mediaRecorder.onstop=async()=>{await transcribeAudio(new Blob(audioChunks,{type:'audio/webm'}));stream.getTracks().forEach(t=>t.stop());};
+    mediaRecorder.start(); isRecording=true;
+    document.getElementById('btn-mic').classList.add('recording');
+    document.getElementById('btn-mic').textContent='⏹️';
+    document.getElementById('tbox').textContent='🎙️ Écoute...';
+  }catch(e){alert('Micro non accessible : '+e.message);}
+}
+function stopMic(){
+  if(mediaRecorder&&isRecording){
+    mediaRecorder.stop(); isRecording=false;
+    document.getElementById('btn-mic').classList.remove('recording');
+    document.getElementById('btn-mic').textContent='🎤';
+    document.getElementById('tbox').textContent='⏳ Transcription...';
+  }
+}
+async function transcribeAudio(blob){
+  const form=new FormData();
+  form.append('audio',blob,'audio.webm');
+  try{
+    const res=await fetch('/transcribe',{method:'POST',body:form});
+    const data=await res.json();
+    if(!data.text){document.getElementById('tbox').textContent='(rien détecté)';return;}
+    document.getElementById('tbox').textContent=data.text;
+    await sendChat(data.text);
+  }catch(e){document.getElementById('tbox').textContent='❌ Erreur';}
+}
+
+async function resetSession(){
+  if(!confirm('Recommencer ?')) return;
+  document.getElementById('modal-niveau').classList.remove('show');
+  await fetch('/reset',{method:'POST'});
+  location.reload();
+}
+function showOverlay(txt){document.getElementById('overlay-txt').textContent=txt;document.getElementById('overlay').classList.add('show');}
+function hideOverlay(){document.getElementById('overlay').classList.remove('show');}
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "session_id": "e699c182",
+  "start_time": "2026-06-18T18:09:41.429383",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:09:41.429626",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Sous-titrage Société Radio-Canada",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:09:41.430163",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans le drainage thoracique. Cette question ne concerne pas le drainage thoracique, tu peux passer à l'étape suivante.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

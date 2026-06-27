@@ -1,0 +1,25 @@
+{
+  "session_id": "9aeb5461",
+  "start_time": "2026-06-05T21:58:30.125874",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T21:58:30.125874",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Pourquoi on utilise le lin bistouré ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T21:58:30.126874",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour l'étape actuelle, vous devez réaliser une incision franche d'environ 1 cm sur la zone anesthésiée en utilisant la lame de bistouri. Assurez-vous que l'incision soit perpendiculaire à la peau et d'une longueur d'au moins 1 cm pour garantir une ouverture adéquate.",
+        "operation_id": 5
+      }
+    }
+  ]
+}

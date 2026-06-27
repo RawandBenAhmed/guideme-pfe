@@ -1,0 +1,25 @@
+{
+  "session_id": "100d5fce",
+  "start_time": "2026-06-18T18:25:51.332226",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:25:51.332334",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "je suis dans quel etape",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:25:51.332923",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es à l'étape 2, la préparation du patient, qui est une étape cruciale avant le drainage thoracique. Assure-toi de bien préparer le patient pour garantir la réussite de l'intervention.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

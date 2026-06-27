@@ -1,0 +1,25 @@
+{
+  "session_id": "9aeb5461",
+  "start_time": "2026-06-05T21:59:45.194818",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T21:59:45.194818",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Pourquoi on utilise le ciseau ?",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T21:59:45.194818",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape de dissection sous-cutanée, vous devez utiliser un ciseau, car cet outil permet de traverser les tissus sous-cutanés de manière précise et efficace. Le ciseau est spécifiquement requis pour effectuer les 3 mouvements de dissection nécessaires pour atteindre l'espace intercostal.",
+        "operation_id": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "session_id": "a91df3de",
+  "start_time": "2026-05-16T00:37:15.906729",
+  "total_duration": 304.2,
+  "events": [
+    {
+      "timestamp": "2026-05-16T00:37:17.981292",
+      "elapsed": 2.1,
+      "event_type": "step_start",
+      "data": {
+        "operation_id": 1,
+        "operation_name": "Diagnostique"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:37:35.794538",
+      "elapsed": 19.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Salut ! Tu vas commencer la phase 1 - Diagnostic, étape 1. Prends ton stéthoscope et ausculte le patient. En même temps, assure-toi que son masque respiratoire est bien en place. Durée : 30 secondes. On y va !",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:38:25.927624",
+      "elapsed": 70.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "quel outil je prends ?",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:38:35.800809",
+      "elapsed": 79.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends le stéthoscope d'abord pour ausculter le patient. Cela nous aidera à détecter les bruits respiratoires anormaux qui pourraient indiquer la nécessité du drainage thoracique.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:38:52.015018",
+      "elapsed": 96.1,
+      "event_type": "user_message",
+      "data": {
+        "message": "tools?",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:38:58.719030",
+      "elapsed": 102.8,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Stéthoscope et masque respiratoire. Assure-toi qu'ils sont bien en place avant d'ausculter le patient.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:39:21.786012",
+      "elapsed": 125.9,
+      "event_type": "user_message",
+      "data": {
+        "message": "où en suis-je ?",
+        "intent": "progress"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:39:29.586262",
+      "elapsed": 133.7,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien compris les étapes du diagnostique et tu es sur la bonne voie ! Continue ainsi, chaque étape est importante pour maîtriser parfaitement cette procédure.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:40:08.144156",
+      "elapsed": 172.2,
+      "event_type": "user_message",
+      "data": {
+        "message": "quel outil je prends ?",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:40:17.522570",
+      "elapsed": 181.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends le stéthoscope pour ausculter le patient. Cela permet de détecter des bruits respiratoires anormaux qui indiqueraient une accumulation de liquide dans la cavité thoracique.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:40:35.061914",
+      "elapsed": 199.2,
+      "event_type": "user_message",
+      "data": {
+        "message": "j'ai fini",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:40:41.489600",
+      "elapsed": 205.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bravo ! Tu as bien terminé l'étape de diagnostique. À présent, prépare le patient pour la procédure.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:40:41.490597",
+      "elapsed": 205.6,
+      "event_type": "step_complete",
+      "data": {
+        "operation_id": 1,
+        "duration_seconds": 203,
+        "errors": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:40:41.490597",
+      "elapsed": 205.6,
+      "event_type": "step_start",
+      "data": {
+        "operation_id": 2,
+        "operation_name": "Préparation patient"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:40:53.025872",
+      "elapsed": 217.1,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Salut ! Tu commences la deuxième étape de préparation. Enfile tes gants stériles, palpe le 5e espace intercostal sur la ligne axillaire moyenne pour repérer le site d'insertion, puis installe le champ stérile. On y va ?",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:41:46.107267",
+      "elapsed": 270.2,
+      "event_type": "user_message",
+      "data": {
+        "message": "j'ai fait une erreur",
+        "intent": "error"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:41:54.176237",
+      "elapsed": 278.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu n'as pas encore localisé le site d'insertion avant d'enfiler les gants. C'est crucial pour éviter tout risque infectieux.",
+        "operation_id": 2
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:41:54.177234",
+      "elapsed": 278.3,
+      "event_type": "error",
+      "data": {
+        "operation_id": 2,
+        "description": "j'ai fait une erreur"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:42:13.302884",
+      "elapsed": 297.4,
+      "event_type": "user_message",
+      "data": {
+        "message": "recette piza",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-16T00:42:20.112191",
+      "elapsed": 304.2,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

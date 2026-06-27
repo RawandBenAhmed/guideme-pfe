@@ -1,0 +1,25 @@
+{
+  "session_id": "bcd89509",
+  "start_time": "2026-06-17T23:37:51.337763",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-17T23:37:51.338239",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi le pétadine.",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-17T23:37:51.338892",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as besoin d'une compresse stérile et de Bétadine pour désinfecter la zone. Utilise ces outils pour imbiber la compresse de Bétadine et désinfecter correctement la zone à traiter.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

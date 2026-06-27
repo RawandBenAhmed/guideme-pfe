@@ -1,0 +1,124 @@
+{
+  "session_id": "1ded4d3b",
+  "start_time": "2026-05-22T11:43:38.052314",
+  "total_duration": 10450.9,
+  "events": [
+    {
+      "timestamp": "2026-05-22T11:44:12.922954",
+      "elapsed": 34.9,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi le bistouri.",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T11:44:12.922954",
+      "elapsed": 34.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T11:45:40.662295",
+      "elapsed": 122.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es dans l'étape 1 : Diagnostique. Installe le masque respiratoire au patient, enfile les gants, puis ausculte les deux poumons avec le stéthoscope.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T11:46:33.814044",
+      "elapsed": 175.8,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne-moi le masque respiratoire",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T11:46:33.814549",
+      "elapsed": 175.8,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T11:47:11.116646",
+      "elapsed": 213.1,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne-moi le gant",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T11:47:11.117156",
+      "elapsed": 213.1,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T11:47:29.678456",
+      "elapsed": 231.6,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne-moi le stéthoscope.",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T11:47:29.678456",
+      "elapsed": 231.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T11:50:00.322243",
+      "elapsed": 382.3,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi le stéthoscope.",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T11:50:00.323449",
+      "elapsed": 382.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-22T14:37:48.980379",
+      "elapsed": 10450.9,
+      "event_type": "user_message",
+      "data": {
+        "message": "Dormage stéthoscope.",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T14:37:48.980883",
+      "elapsed": 10450.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Installe bien ton masque respiratoire au patient avant d'ausculter. Puis ausculte les deux poumons avec ton stéthoscope pour évaluer la respiration.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

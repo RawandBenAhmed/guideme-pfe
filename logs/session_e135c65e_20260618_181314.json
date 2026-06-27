@@ -1,0 +1,25 @@
+{
+  "session_id": "e135c65e",
+  "start_time": "2026-06-18T18:13:14.951984",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:13:14.952092",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "je suis dans quelle étape",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:13:14.952659",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es dans l'étape 3 : Désinfection Bétadine.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

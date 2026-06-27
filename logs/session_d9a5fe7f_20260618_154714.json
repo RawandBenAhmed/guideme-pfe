@@ -1,0 +1,25 @@
+{
+  "session_id": "d9a5fe7f",
+  "start_time": "2026-06-18T15:47:14.187547",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:47:14.188698",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "combien d'étapes",
+        "intent": "progress"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:47:14.194366",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es à l'étape 6, il y a donc au moins 6 étapes dans le processus que tu es en train de suivre. Je suppose que tu veux savoir combien d'étapes au total, mais je ne peux pas te donner ce nombre exact sans plus de contexte.",
+        "operation_id": 6
+      }
+    }
+  ]
+}

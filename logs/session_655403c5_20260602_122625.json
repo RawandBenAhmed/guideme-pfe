@@ -1,0 +1,25 @@
+{
+  "session_id": "655403c5",
+  "start_time": "2026-06-02T12:26:25.061766",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-02T12:26:25.061765",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Bravo tu as correctement identifié cette étape.",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-02T12:26:25.068634",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour commencer la procédure de drainage thoracique, vous devez d'abord installer le masque respiratoire au patient pour assurer sa sécurité et la vôtre. Ensuite, enfilez les gants stériles et utilisez le stéthoscope pour ausculter les deux poumons du patient, en suivant l'ordre précis indiqué pour éviter toute contamination.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

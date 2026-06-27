@@ -1,0 +1,25 @@
+{
+  "session_id": "3b4ea782",
+  "start_time": "2026-06-17T23:47:29.332656",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-17T23:47:29.332876",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Quel est l'outil utilisé dans cette situation ?",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-17T23:47:29.339109",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as besoin de gants stériles pour préserver la stérilité de la procédure et éviter toute contamination. Le champ stérile fenêtré est également essentiel pour protéger la zone d'insertion et maintenir une environnement stérile.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

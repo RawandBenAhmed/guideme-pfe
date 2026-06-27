@@ -1,0 +1,153 @@
+{
+  "operations": [
+    {
+      "operation_id": 1,
+      "operation_name": "Diagnostique",
+      "phase": "diagnostic",
+      "phase_label": "Phase 1 - Diagnostic",
+      "frames_folder": "data/processed/diagnostique",
+      "tool_ids": ["T02", "T03", "T01"],
+      "tool_count": 3,
+      "tool_names": "Masque respiratoire, Gants stériles, Stéthoscope",
+      "next_operation": 2,
+      "estimated_duration_seconds": 30,
+      "completion_criteria": "confirmation_utilisateur",
+      "common_errors": [
+        "Oublier d'installer le masque avant d'enfiler les gants",
+        "Ne pas ausculter les deux poumons",
+        "Commencer la procédure sans le masque en place",
+        "Enfiler les gants avant d'installer le masque"
+      ]
+    },
+    {
+      "operation_id": 2,
+      "operation_name": "Préparation patient",
+      "phase": "preparation",
+      "phase_label": "Phase 2 - Préparation",
+      "frames_folder": "data/processed/preparation_patient",
+      "tool_ids": ["T03", "T04"],
+      "tool_count": 2,
+      "tool_names": "Gants stériles chirurgicaux, Champ stérile fenêtré",
+      "next_operation": 3,
+      "estimated_duration_seconds": 30,
+      "completion_criteria": "confirmation_utilisateur",
+      "common_errors": [
+        "Toucher une surface non stérile après avoir enfilé les gants",
+        "Ne pas centrer correctement le champ stérile sur le site d'insertion",
+        "Enfiler les gants avant d'avoir localisé le site d'insertion"
+      ]
+    },
+    {
+      "operation_id": 3,
+      "operation_name": "Désinfection Bétadine",
+      "phase": "preparation",
+      "phase_label": "Phase 2 - Préparation",
+      "frames_folder": "data/processed/desinfection_betadine",
+      "tool_ids": ["T05", "T06"],
+      "tool_count": 2,
+      "tool_names": "Compresse stérile, Bétadine",
+      "next_operation": 4,
+      "estimated_duration_seconds": 30,
+      "completion_criteria": "confirmation_utilisateur",
+      "common_errors": [
+        "Désinfecter de la périphérie vers le centre au lieu du centre vers la périphérie",
+        "Utiliser la même compresse deux fois",
+        "Ne pas attendre que la Bétadine sèche avant de continuer"
+      ]
+    },
+    {
+      "operation_id": 4,
+      "operation_name": "Anesthésie locale",
+      "phase": "preparation",
+      "phase_label": "Phase 2 - Préparation",
+      "frames_folder": "data/processed/anesthesie_locale",
+      "tool_ids": ["T07", "T08"],
+      "tool_count": 2,
+      "tool_names": "Seringue, Xylocaïne 1%",
+      "next_operation": 5,
+      "estimated_duration_seconds": 30,
+      "completion_criteria": "confirmation_utilisateur",
+      "common_errors": [
+        "Ne pas aspirer avant d'injecter — risque d'injection intravasculaire",
+        "Injecter trop vite et provoquer une douleur",
+        "Oublier de charger la seringue avec la Xylocaïne avant l'injection",
+        "Ne pas attendre que l'anesthésie fasse effet avant l'incision"
+      ]
+    },
+    {
+      "operation_id": 5,
+      "operation_name": "Incision cutanée",
+      "phase": "intervention",
+      "phase_label": "Phase 3 - Intervention",
+      "frames_folder": "data/processed/incision_cutanee",
+      "tool_ids": ["T09"],
+      "tool_count": 1,
+      "tool_names": "Lame de bistouri",
+      "next_operation": 6,
+      "estimated_duration_seconds": 30,
+      "completion_criteria": "confirmation_utilisateur",
+      "common_errors": [
+        "Faire une incision trop petite — moins d'1 cm",
+        "Incision non perpendiculaire à la peau",
+        "Inciser avant que l'anesthésie soit confirmée",
+        "Utiliser une force excessive au lieu d'une coupe franche"
+      ]
+    },
+    {
+      "operation_id": 6,
+      "operation_name": "Dissection sous-cutanée",
+      "phase": "intervention",
+      "phase_label": "Phase 3 - Intervention",
+      "frames_folder": "data/processed/dissection_sous_cutanee",
+      "tool_ids": ["T10"],
+      "tool_count": 1,
+      "tool_names": "Ciseau",
+      "next_operation": 7,
+      "estimated_duration_seconds": 30,
+      "completion_criteria": "confirmation_utilisateur",
+      "common_errors": [
+        "Faire moins de 3 mouvements de dissection — trajet insuffisant pour le drain",
+        "Disséquer le long du bord inférieur de la côte — risque de blesser le paquet vasculo-nerveux",
+        "Utiliser une force excessive — risque de pneumothorax iatrogène",
+        "Ne pas disséquer assez profond avant d'insérer le drain"
+      ]
+    },
+    {
+      "operation_id": 7,
+      "operation_name": "Insertion du drain",
+      "phase": "intervention",
+      "phase_label": "Phase 3 - Intervention",
+      "frames_folder": "data/processed/insertion_drain",
+      "tool_ids": ["T11"],
+      "tool_count": 1,
+      "tool_names": "Drain thoracique",
+      "next_operation": 8,
+      "estimated_duration_seconds": 30,
+      "completion_criteria": "confirmation_utilisateur",
+      "common_errors": [
+        "Ne pas orienter le drain vers l'apex",
+        "Forcer le drain en cas de résistance",
+        "Insérer le drain trop profondément",
+        "Ne pas utiliser le trajet disséqué pour l'insertion"
+      ]
+    },
+    {
+      "operation_id": 8,
+      "operation_name": "Connexion bocal de drainage",
+      "phase": "intervention",
+      "phase_label": "Phase 3 - Intervention",
+      "frames_folder": "data/processed/connexion_bocal",
+      "tool_ids": ["T12"],
+      "tool_count": 1,
+      "tool_names": "Système de drainage",
+      "next_operation": null,
+      "estimated_duration_seconds": 30,
+      "completion_criteria": "confirmation_utilisateur",
+      "common_errors": [
+        "Ne pas vérifier l'étanchéité de la connexion",
+        "Ne pas vérifier le bullage dans le bocal après connexion",
+        "Laisser le drain déconnecté même brièvement"
+      ]
+    }
+  ]
+}

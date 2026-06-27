@@ -1,0 +1,25 @@
+{
+  "session_id": "d9a5fe7f",
+  "start_time": "2026-06-18T15:48:38.986417",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:48:38.987598",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "donnement le système drainage",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:48:38.995123",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu vas maintenant connecter le bocal de drainage au système de drainage pour permettre l'écoulement du liquide thoracique. Assure-toi de suivre les étapes de connexion pour éviter toute erreur.",
+        "operation_id": 8
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "Whisper small (local)": {
+    "scores": [
+      75,
+      86,
+      80,
+      62,
+      75,
+      43,
+      83,
+      33
+    ],
+    "times": [
+      2.98,
+      2.6,
+      2.21,
+      2.26,
+      2.55,
+      2.58,
+      2.44,
+      2.37
+    ],
+    "texts": [
+      "donne moi le stytoscope",
+      "Je suis dans l'étape de désinfection pétadine.",
+      "Prends la lame de bistouré",
+      "Quel outil je dois utiliser dans cette étape ?",
+      "J'ai terminé l'anesthésie locale.",
+      "Donne-moi la compresse Théryl et la bithadine.",
+      "Je veux passer à l'étape suivante.",
+      "Comment aux yeux désinfectent avec les pétadines?"
+    ],
+    "avg_score": 67.1,
+    "avg_time": 2.5
+  },
+  "Groq Whisper large-v3": {
+    "scores": [
+      25,
+      86,
+      80,
+      62,
+      75,
+      57,
+      83,
+      83
+    ],
+    "times": [
+      1.0,
+      0.89,
+      0.81,
+      0.74,
+      0.86,
+      0.79,
+      0.82,
+      1.15
+    ],
+    "texts": [
+      "Donne-moi le stéthoscope.",
+      "Je suis dans l'étape de désinfection pétadine.",
+      "Prends la lame de bistouri.",
+      "Quel outil je dois utiliser dans cette étape ?",
+      "J'ai terminé l'anesthésie locale.",
+      "Donne-moi la compresse stérile et la betadine.",
+      "Je veux passer à l'étape suivante.",
+      "Comment je désinfecte avec la pétadine ?"
+    ],
+    "avg_score": 68.9,
+    "avg_time": 0.88
+  }
+}

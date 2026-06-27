@@ -1,0 +1,25 @@
+{
+  "session_id": "81bb738f",
+  "start_time": "2026-06-05T22:13:08.703055",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T22:13:08.703054",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "J'ai terminé cette étape.",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T22:13:08.703054",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Vous avez maintenant terminé l'étape 5, l'incision cutanée, et vous allez passer à l'étape 6, la dissection sous-cutanée. Pour cette nouvelle étape, vous utiliserez le ciseau, un outil essentiel pour une dissection précise et soigneuse.",
+        "operation_id": 5
+      }
+    }
+  ]
+}

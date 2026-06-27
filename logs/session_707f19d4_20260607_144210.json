@@ -1,0 +1,25 @@
+{
+  "session_id": "707f19d4",
+  "start_time": "2026-06-07T14:42:10.624128",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-07T14:42:10.624127",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "L'étudiant a correctement identifié l'étape 1 : Diagnostique. Félicite-le en une phrase très courte (ex: Bravo !). Puis dis-lui exactement : Prends les outils suivants : Masque respiratoire, Gants stériles, Stéthoscope. Action à effectuer : .",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-06-07T14:42:10.625392",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Vous avez maintenant terminé l'étape 2 de préparation du patient, vous allez passer à l'étape 3 qui consiste en la désinfection à l'aide de la Bétadine. Pour cette étape, vous aurez besoin d'une compresse stérile et de la Bétadine, assurez-vous d'avoir ces outils à portée de main.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

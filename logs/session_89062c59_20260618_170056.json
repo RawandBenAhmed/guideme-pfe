@@ -1,0 +1,25 @@
+{
+  "session_id": "89062c59",
+  "start_time": "2026-06-18T17:00:56.885146",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T17:00:56.885307",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Que dois-je faire dans cette étape ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T17:00:56.886163",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu vas installer le masque respiratoire au patient, enfiler les gants, puis ausculter les deux poumons avec le stéthoscope.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "session_id": "d47eb9ec",
+  "start_time": "2026-06-18T18:03:43.352983",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:03:43.353135",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "merci",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:03:43.354708",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es prêt à en savoir plus sur l'anesthésie locale dans le cadre du drainage thoracique ! L'anesthésie locale est une étape cruciale pour minimiser la douleur lors de l'insertion du drain thoracique.",
+        "operation_id": 4
+      }
+    }
+  ]
+}

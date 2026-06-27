@@ -1,0 +1,34 @@
+{
+  "session_id": "81810a78",
+  "start_time": "2026-05-20T14:36:46.028915",
+  "total_duration": 102.3,
+  "events": [
+    {
+      "timestamp": "2026-05-20T14:37:18.080252",
+      "elapsed": 32.1,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bien joué ! Ausculte attentivement le patient avec ton stéthoscope et assure-toi que le masque respiratoire est bien fixé pour éviter toute complication. C'est crucial pour la sécurité du patient.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-20T14:38:10.587851",
+      "elapsed": 84.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends ton stethoscope et ton masque respiratoire. On commence par écouter le poumon affecté.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-20T14:38:28.350345",
+      "elapsed": 102.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bravo pour ton attention ! Assure-toi que le patient respire normalement et que le masque respiratoire est bien ajusté pour éviter tout risque d'aspiration.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "session_id": "75342e43",
+  "start_time": "2026-05-21T15:59:42.657057",
+  "total_duration": 18.4,
+  "events": [
+    {
+      "timestamp": "2026-05-21T16:00:01.014700",
+      "elapsed": 18.4,
+      "event_type": "user_message",
+      "data": {
+        "message": "j'ai fini",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-05-21T16:00:01.015681",
+      "elapsed": 18.4,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bien fait ! Tu as bien terminé l'étape de diagnostique. La prochaine étape consiste à préparer le patient. On y va ?",
+        "operation_id": 1
+      }
+    }
+  ]
+}

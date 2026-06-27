@@ -1,0 +1,16 @@
+{
+  "session_id": "b0d6f00f",
+  "start_time": "2026-05-21T22:32:13.398705",
+  "total_duration": 19.9,
+  "events": [
+    {
+      "timestamp": "2026-05-21T22:32:33.252466",
+      "elapsed": 19.9,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je ne peux pas répondre pour le moment — vérifie qu'Ollama est lancé.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

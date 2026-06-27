@@ -1,0 +1,43 @@
+{
+  "session_id": "0970c422",
+  "start_time": "2026-05-20T14:29:33.422573",
+  "total_duration": 120.8,
+  "events": [
+    {
+      "timestamp": "2026-05-20T14:30:07.459001",
+      "elapsed": 34.0,
+      "event_type": "error",
+      "data": {
+        "operation_id": 1,
+        "description": "Mauvais outils : ['ciseau', 'ciseau', 'lame_bistouri', 'ciseau', 'lame_bistouri', 'ciseau']"
+      }
+    },
+    {
+      "timestamp": "2026-05-20T14:30:26.572481",
+      "elapsed": 53.1,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Ah, ces outils ne servent pas ici ! Prends plutôt ton stethoscope pour ausculter le patient. Et n'oublie pas ton masque respiratoire pour ta protection.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-20T14:31:01.254705",
+      "elapsed": 87.8,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Bien joué ! Assure-toi que le masque respiratoire est bien ajusté pour éviter toute fuite d'air. Écoute attentivement les bruits respiratoires avec ton stéthoscope.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-20T14:31:34.214049",
+      "elapsed": 120.8,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Prends ton stethoscope et ton masque respiratoire. On commence par écouter le poumon affecté.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

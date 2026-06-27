@@ -1,0 +1,25 @@
+{
+  "session_id": "81bb738f",
+  "start_time": "2026-06-05T22:10:41.455448",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-05T22:10:41.455448",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Que dois-je faire dans cette étape ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-05T22:10:41.455448",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape de préparation du patient, vous devez enfilez les gants stériles, puis palpez le 5e espace intercostal sur la ligne axillaire moyenne pour repérer le site d'insertion. Ensuite, installez le champ stérile fenêtré pour préparer le site d'insertion du drainage thoracique.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

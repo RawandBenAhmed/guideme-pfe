@@ -1,0 +1,25 @@
+{
+  "session_id": "ae1dfe5a",
+  "start_time": "2026-06-17T23:56:03.481516",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-17T23:56:03.481739",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Quels sont les outils nécessaires pour cette étape ?",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-17T23:56:03.482141",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as besoin d'un masque respiratoire pour commencer, car il te permet de protéger le patient et toi-même des germes. Ensuite, tu pourras utiliser les gants stériles et le stéthoscope pour poursuivre l'examen.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

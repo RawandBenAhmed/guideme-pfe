@@ -1,0 +1,43 @@
+{
+  "session_id": "e54301f6",
+  "start_time": "2026-05-27T21:14:46.515501",
+  "total_duration": 85.0,
+  "events": [
+    {
+      "timestamp": "2026-05-27T21:15:51.563899",
+      "elapsed": 65.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "L'ääistorique est composée avec son´ 돼요 EHOR",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T21:15:51.563899",
+      "elapsed": 65.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-27T21:16:11.561734",
+      "elapsed": 85.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "J'ai terminé cette étape. Quelle est l'étape suivante ?",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T21:16:11.562733",
+      "elapsed": 85.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien terminé l'étape 1 : Diagnostique, maintenant tu vas passer à l'étape 2 : Préparation du matériel. Dans cette étape, tu devras préparer les instruments nécessaires pour le drainage thoracique.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

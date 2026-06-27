@@ -1,0 +1,43 @@
+{
+  "session_id": "716e4603",
+  "start_time": "2026-06-02T01:17:43.990735",
+  "total_duration": 47.3,
+  "events": [
+    {
+      "timestamp": "2026-06-02T01:18:12.649466",
+      "elapsed": 28.7,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donnez-moi le stéthoscope.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-06-02T01:18:12.649466",
+      "elapsed": 28.7,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as déjà le stéthoscope dans tes outils, il fait partie de l'équipement nécessaire pour cette étape de diagnostique. Maintenant, utilise-le pour ausculter les deux poumons du patient, c'est une étape cruciale pour évaluer son état respiratoire.",
+        "operation_id": 1
+      }
+    },
+    {
+      "timestamp": "2026-06-02T01:18:31.335888",
+      "elapsed": 47.3,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi la recette du pizza.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-06-02T01:18:31.335888",
+      "elapsed": 47.3,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans la procédure de drainage thoracique. Pose-moi une question sur l'étape en cours.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

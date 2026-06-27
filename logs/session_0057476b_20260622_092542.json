@@ -1,0 +1,25 @@
+{
+  "session_id": "0057476b",
+  "start_time": "2026-06-22T09:25:42.288583",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-22T09:25:42.288720",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "quesque je fait dans cette etape",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-22T09:25:42.289493",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu vas enfiler les gants stériles, palper le 5e espace intercostal sur la ligne axillaire moyenne, repérer le site d'insertion et installer le champ stérile.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

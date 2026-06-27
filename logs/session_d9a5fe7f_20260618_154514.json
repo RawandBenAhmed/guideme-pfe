@@ -1,0 +1,25 @@
+{
+  "session_id": "d9a5fe7f",
+  "start_time": "2026-06-18T15:45:14.453549",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:45:14.453841",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "donnez-moi le champ stérile",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:45:14.455221",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, tu as besoin de : Gants stériles, Champ stérile fenêtré.",
+        "operation_id": 2
+      }
+    }
+  ]
+}

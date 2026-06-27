@@ -1,0 +1,25 @@
+{
+  "session_id": "d9a5fe7f",
+  "start_time": "2026-06-18T15:46:01.695574",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:46:01.696766",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "jai terminé",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:46:01.704819",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu passes à l'étape 4 : Anesthésie locale. Prends une seringue et de la Xylocaïne 1% pour procéder à l'anesthésie locale.",
+        "operation_id": 4
+      }
+    }
+  ]
+}

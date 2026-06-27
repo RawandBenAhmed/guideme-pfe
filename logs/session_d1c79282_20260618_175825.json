@@ -1,0 +1,25 @@
+{
+  "session_id": "d1c79282",
+  "start_time": "2026-06-18T17:58:25.953862",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T17:58:25.954071",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Sous-titrage Société Radio-Canada",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T17:58:25.955027",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Je suis spécialisé uniquement dans le drainage thoracique. Cette question ne concerne pas le drainage thoracique, tu veux peut-être en savoir plus sur l'anesthésie locale dans ce contexte ?",
+        "operation_id": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "session_id": "11744f42",
+  "start_time": "2026-06-17T16:48:25.293130",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-17T16:48:25.293403",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "je suis dans quel etape",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-17T16:48:25.294044",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour commencer, vous devez installer le masque respiratoire au patient pour assurer sa sécurité et la vôtre, puis enfilez les gants stériles pour prévenir toute contamination. Ensuite, utilisez le stéthoscope pour ausculter les deux poumons du patient, en suivant l'ordre précis : masque, gants, puis stéthoscope.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

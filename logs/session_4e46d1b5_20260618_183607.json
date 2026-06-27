@@ -1,0 +1,25 @@
+{
+  "session_id": "4e46d1b5",
+  "start_time": "2026-06-18T18:36:07.815477",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:36:07.815677",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "j'ai terminé cette étape",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:36:07.816047",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu passes à l'étape 6 : Dissection sous-cutanée. Prends le ciseau pour effectuer les mouvements de dissection nécessaires.",
+        "operation_id": 6
+      }
+    }
+  ]
+}

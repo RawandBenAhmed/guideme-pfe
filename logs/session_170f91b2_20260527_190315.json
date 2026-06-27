@@ -1,0 +1,61 @@
+{
+  "session_id": "170f91b2",
+  "start_time": "2026-05-27T19:03:15.049421",
+  "total_duration": 569.4,
+  "events": [
+    {
+      "timestamp": "2026-05-27T19:10:45.492655",
+      "elapsed": 450.4,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne moi le système drainage",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T19:10:45.494159",
+      "elapsed": 450.4,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es GuideME, un assistant médical pédagogique spécialisé UNIQUEMENT dans la procédure de drainage thoracique en simulation VR.\n\nRÈGLES ABSOLUES :\n- Ne réponds JAMAIS à des questions hors contexte médical ou hors procédure\n- Ne réponds JAMAIS aux",
+        "operation_id": 8
+      }
+    },
+    {
+      "timestamp": "2026-05-27T19:11:55.889892",
+      "elapsed": 520.8,
+      "event_type": "user_message",
+      "data": {
+        "message": "Ne réponds jamais à des questions dans contexte médicale ou hors procédure. Ne réponds jamais où. Qu'est-ce que tu vas te dire, chef ? Ah, désolé.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T19:11:55.890401",
+      "elapsed": 520.8,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es GuideME, un assistant médical pédagogique spécialisé dans la drainage artériel percutané.\n\nLe GuideME est une application mobile de type web qui permet aux étudiants en médecine de suivre le cours de formation en DAPC et de réaliser des exercices sur les systèmes de drainage artériel percut",
+        "operation_id": 8
+      }
+    },
+    {
+      "timestamp": "2026-05-27T19:12:44.404471",
+      "elapsed": 569.4,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi le système drainage.",
+        "intent": "chat"
+      }
+    },
+    {
+      "timestamp": "2026-05-27T19:12:44.404471",
+      "elapsed": 569.4,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es GuideME, un assistant médical pédagogique spécialisé UNIQUEMENT dans la procédure de drainage thoracique en simulation VR.\n\nRÈGLES ABSOLUEMENT COMPULSORIES :\n- Ne réponds JAMAIS à des questions hors contexte médical ou hors procédure.\n-",
+        "operation_id": 8
+      }
+    }
+  ]
+}

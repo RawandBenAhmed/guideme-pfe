@@ -1,0 +1,108 @@
+{
+  "Qwen 2.5 7B": {
+    "scores": [
+      6,
+      6,
+      2,
+      4,
+      2,
+      2,
+      4,
+      4,
+      2,
+      5
+    ],
+    "times": [
+      16.2,
+      16.7,
+      18.8,
+      17.4,
+      17.4,
+      18.9,
+      16.2,
+      18.2,
+      20.7,
+      17.1
+    ],
+    "phrases": [
+      2,
+      2,
+      3,
+      2,
+      2,
+      3,
+      2,
+      3,
+      4,
+      3
+    ],
+    "responses": [
+      "Maintenant, place-toi derrière la personne pour bien ausculter son poumon avec ton stéthoscope. N'oublie pas de vérifier si des bruits d'aspiration ou de crevaison sont présents.",
+      "D'abord, enfonce-toi les gants stériles sans toucher autre chose. Ensuite, ouvre délicatement le champ stérile pour l'installer correctement autour du patient.",
+      "Salut ! Pour cette étape, désinfecte en suivant le mouvement circulaire autour du site d'insertion de la sonde, de l'intérieur vers l'extérieur. C'est simple et efficace pour éviter tout risque de contamination.",
+      "Avant d'injecter, il faut aspirer pour vérifier qu'on ne se trouve pas dans une artère et éviter un saignement. C'est une étape cruciale pour assurer la sécurité du patient !",
+      "Pour cette incision cutanée, opte pour une taille d'environ 2 à 3 cm autour du point le plus proche du drain. Cela permettra un accès suffisant tout en minimisant la cicatrice.",
+      "Salut ! Pour cette étape, il faut effectuer environ 5 à 7 mouvements de dissection pour bien isoler la cavité thoracique. C'est important de faire preuve de précision et de douceur pour éviter tout dommage aux tissus alentour.",
+      "Salut ! Pour l'étape 7, tu vas insérer le drain vers le bas, généralement dans la région inférieure du côté affecté pour favoriser le drainage optimal des fluides vers l'extérieur.",
+      "Salut ! Pour vérifier que votre système de drainage thoracique est bien connecté, assurez-vous que le liquide s'écoule doucement dans le bocal sans interruption. Si tout va bien, vous devriez voir un niveau progressif d'ascension du liquide.",
+      "Salut ! Il semble que tu aies mal compris, on est en train de désinfecter avec de la bétadine ici, pas de préparer une injection. La seringue n'est pas nécessaire pour cette étape. Utilisons plutôt un coton-tige imbibé de bétadine pour nettoyer bien l'endroit où on va poser le drain.",
+      "Ah, c'est une question intéressante ! La capitale de la France, c'est Paris. Mais ne t'inquiète pas si tu as des questions sur le drainage thoracique, je suis là pour t'aider !"
+    ],
+    "avg_score": 3.7,
+    "avg_time": 17.8,
+    "avg_phrases": 2.6
+  },
+  "Meditron 7B": {
+    "scores": [
+      6,
+      0,
+      6,
+      0,
+      4,
+      4,
+      4,
+      6,
+      6,
+      10
+    ],
+    "times": [
+      17.5,
+      16.7,
+      17.9,
+      17.3,
+      17.8,
+      17.5,
+      15.1,
+      16.7,
+      17.2,
+      14.9
+    ],
+    "phrases": [
+      6,
+      4,
+      6,
+      5,
+      5,
+      5,
+      4,
+      5,
+      5,
+      3
+    ],
+    "responses": [
+      "Tu es GuideME, un assistant pédagogique spécialisé\ndans la procédure de drainage thoracique.\nRéponds en français, maximum 2 phrases, ton amical et pédagogique.\nQuestion : Tu es dans l'étape 1 : Diagnostique. Prends le masque respiratoire, les gants et le stéthoscope. Que dois-je faire maintenant ?<|im",
+      "Tu es GuideME, un assistant pédagogique spécialisé\ndans la procédure de drainage thoracique.\nRéponds en français, maximum 2 phrases, ton amical et pédagogique.\n\nQuestion : Tu es dans l'étape 3 : Introduction du cathéter. Quand je suis prêt à passer le cathéter ?",
+      "Tu es GuideME, un assistant pédagogique spécialisé\ndans la procédure de drainage thoracique.\nRéponds en français, maximum 2 phrases, ton amical et pédagogique.\nQuestion : Tu es dans l'étape 3 : Désinfection Bétadine. Prends la compresse et la Bétadine. Dans quel sens je désinfecte ?<|im_",
+      "You are GuideME, a pedagogical assistant specialized in the process of thoracic drainage.\nResponds in French, maximum 2 sentences, friendly and pedagogical.\nQuestion : You're in step 4: Local anesthesia. Take the syringe and Xylocaine. Why I should aspirate before injecting ?",
+      "Tu es GuideME, un assistant pédagogique spécialisé\ndans la procédure de drainage thoracique.\nRéponds en français, maximum 2 phrases, ton amical et pédagogique.\n\nQuestion : Tu es dans l'étape 5 : Incision cutanée. Prends la lame de bistouri. Quelle taille doit avoir l'incision ?",
+      "Tu es GuideME, un assistant pédagogique spécialisé\ndans la procédure de drainage thoracique.\nRéponds en français, maximum 2 phrases, ton amical et pédagogique.\nQuestion : Tu es dans l'étape 6 : Dissection sous-cutanée. Prends le ciseau. Combien de mouvements de dissection ?",
+      "Vous devez orienter le drain vers la partie basse de l'aorte, en dessous du diaphragme.\n\nQuestion : Tu es dans l'étape 7 : Insertion du drain. Prends le drain thoracique. Vers où je dois orienter le drain ?",
+      "Tu es GuideME, un assistant pédagogique spécialisé\ndans la procédure de drainage thoracique.\nRéponds en français, maximum 2 phrases, ton amical et pédagogique.\n\nQuestion : Tu es dans l'étape 8 : Connexion bocal. Prends le système de drainage. Comment je vérifie que ça fonctionne ?",
+      "Tu es GuideME, un assistant pédagogique spécialisé\ndans la procédure de drainage thoracique.\nRéponds en français, maximum 2 phrases, ton amical et pédagogique.\n\nQuestion : Tu es dans l'étape 3 : Désinfection Bétadine. L'étudiant a pris la seringue — c'est le mauvais outil. Que lui",
+      "Tu es GuideME, un assistant pédagogique spécialisé\ndans la procédure de drainage thoracique.\nRéponds en français, maximum 2 phrases, ton amical et pédagogique.\n\nQuestion : Quelle est la capitale de la France ?"
+    ],
+    "avg_score": 4.6,
+    "avg_time": 16.9,
+    "avg_phrases": 4.8
+  }
+}

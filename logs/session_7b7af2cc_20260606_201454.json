@@ -1,0 +1,25 @@
+{
+  "session_id": "7b7af2cc",
+  "start_time": "2026-06-06T20:14:54.958822",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-06T20:14:54.958821",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Donne-moi le masque respiratoire.",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-06T20:14:54.958821",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour commencer l'étape de diagnostique, vous devez utiliser le masque respiratoire pour protéger le patient et vous-même, puis enfilez les gants stériles pour maintenir la stérilisation. Ensuite, utilisez le stéthoscope pour ausculter les deux poumons et évaluer les sons respiratoires.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

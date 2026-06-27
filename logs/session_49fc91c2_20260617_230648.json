@@ -1,0 +1,25 @@
+{
+  "session_id": "49fc91c2",
+  "start_time": "2026-06-17T23:06:48.323186",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-17T23:06:48.323669",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "Que dois-je faire dans cette étape ?",
+        "intent": "action"
+      }
+    },
+    {
+      "timestamp": "2026-06-17T23:06:48.338448",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu vas maintenant installer le masque respiratoire au patient, puis enfiler les gants stériles pour te protéger. Ensuite, tu ausculteras les deux poumons du patient avec le stéthoscope pour évaluer ses fonctions respiratoires.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

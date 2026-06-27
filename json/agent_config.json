@@ -1,0 +1,50 @@
+{
+  "agent": {
+    "name": "GuideME",
+    "version": "1.0.0",
+    "role": "Assistant médical pédagogique spécialisé en drainage thoracique",
+    "description": "Guide un étudiant en médecine à travers une simulation VR de drainage thoracique en 8 étapes",
+    "language": "fr",
+    "tone": "amical",
+    "response_style": "court",
+    "error_style": "pedagogique",
+    "max_response_sentences": 2
+  },
+  "llm": {
+    "model": "qwen2.5:7b-instruct",
+    "base_url": "http://localhost:11434",
+    "timeout_seconds": 60,
+    "temperature": 0.3,
+    "max_tokens": 200
+  },
+  "procedure": {
+    "name": "Drainage thoracique",
+    "total_operations": 8,
+    "first_operation_id": 1,
+    "last_operation_id": 8,
+    "estimated_total_duration_seconds": 240,
+    "phases": [
+      {
+        "phase_id": "diagnostic",
+        "phase_label": "Phase 1 - Diagnostic",
+        "operations": [1]
+      },
+      {
+        "phase_id": "preparation",
+        "phase_label": "Phase 2 - Préparation",
+        "operations": [2, 3, 4]
+      },
+      {
+        "phase_id": "intervention",
+        "phase_label": "Phase 3 - Intervention",
+        "operations": [5, 6, 7, 8]
+      }
+    ]
+  },
+  "session": {
+    "max_errors_per_step": 3,
+    "session_timeout_seconds": 3600,
+    "save_logs": true,
+    "mode": "cli"
+  }
+}

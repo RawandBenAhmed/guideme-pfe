@@ -1,0 +1,25 @@
+{
+  "session_id": "4e46d1b5",
+  "start_time": "2026-06-18T18:34:53.008393",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:34:53.008652",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "pourquoi on utilise le betadine",
+        "intent": "why"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:34:53.009014",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu utilises le Bétadine pour désinfecter la zone d'intervention, car c'est un antiseptique qui aide à prévenir les infections. Le Bétadine est choisi pour sa capacité à réduire les risques de contamination bactérienne, ce qui est crucial pour une procédure de drainage thoracique.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

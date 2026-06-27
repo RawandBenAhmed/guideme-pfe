@@ -1,0 +1,25 @@
+{
+  "session_id": "3f208166",
+  "start_time": "2026-06-02T12:21:26.828811",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-02T12:21:26.828811",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "j'ai fini",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-06-02T12:21:26.828811",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Vous avez maintenant terminé l'étape 4, l'anesthésie locale, et vous allez passer à l'étape 5, l'incision cutanée. Pour cette nouvelle étape, vous allez utiliser la lame de bistouri, qui est l'outil essentiel pour réaliser l'incision cutanée avec précision et soin.",
+        "operation_id": 4
+      }
+    }
+  ]
+}

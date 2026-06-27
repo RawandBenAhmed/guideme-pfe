@@ -1,0 +1,25 @@
+{
+  "session_id": "c47376ce",
+  "start_time": "2026-06-18T00:30:39.188819",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T00:30:39.189022",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "j'ai terminé cette étape",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T00:30:39.189459",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu vas maintenant procéder à l'étape de ponction, où tu inséreras l'aiguille de drainage dans la cavité thoracique. Prépare-toi à utiliser l'aiguille de drainage et le cathéter pour aspirer le liquide ou l'air présent dans la cavité thoracique.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "session_id": "33a88f86",
+  "start_time": "2026-05-21T13:05:08.523024",
+  "total_duration": 31.6,
+  "events": [
+    {
+      "timestamp": "2026-05-21T13:05:40.099961",
+      "elapsed": 31.6,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu as bien le masque respiratoire ? Installe-le maintenant sur le patient avant tout. Puis enfile tes gants et ausculte les deux poumons avec le stéthoscope.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

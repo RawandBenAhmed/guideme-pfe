@@ -1,0 +1,25 @@
+{
+  "session_id": "e135c65e",
+  "start_time": "2026-06-18T18:13:22.278466",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T18:13:22.278624",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "donnez moi la betadine",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T18:13:22.279327",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, tu as besoin de : Compresse stérile, Bétadine.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

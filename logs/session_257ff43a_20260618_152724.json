@@ -1,0 +1,25 @@
+{
+  "session_id": "257ff43a",
+  "start_time": "2026-06-18T15:27:24.795336",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:27:24.796817",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "je suis dans etape",
+        "intent": "general"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:27:24.802857",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu es actuellement à l'étape 1 du drainage thoracique, qui est l'étape de diagnostic. Tu as à ta disposition des outils tels que le masque respiratoire, les gants stériles et le stéthoscope pour évaluer la situation.",
+        "operation_id": 1
+      }
+    }
+  ]
+}

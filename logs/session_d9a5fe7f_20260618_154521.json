@@ -1,0 +1,25 @@
+{
+  "session_id": "d9a5fe7f",
+  "start_time": "2026-06-18T15:45:21.648185",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T15:45:21.649411",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "j'ai terminé",
+        "intent": "next"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T15:45:21.654581",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Tu passes à l'étape 3 : Désinfection Bétadine. Prends une compresse stérile et du Bétadine pour désinfecter la zone.",
+        "operation_id": 3
+      }
+    }
+  ]
+}

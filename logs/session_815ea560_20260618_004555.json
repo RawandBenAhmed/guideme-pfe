@@ -1,0 +1,25 @@
+{
+  "session_id": "815ea560",
+  "start_time": "2026-06-18T00:45:55.730395",
+  "total_duration": 0.0,
+  "events": [
+    {
+      "timestamp": "2026-06-18T00:45:55.730716",
+      "elapsed": 0.0,
+      "event_type": "user_message",
+      "data": {
+        "message": "donne moi le ciseau",
+        "intent": "tool"
+      }
+    },
+    {
+      "timestamp": "2026-06-18T00:45:55.731584",
+      "elapsed": 0.0,
+      "event_type": "agent_response",
+      "data": {
+        "response": "Pour cette étape, tu as besoin de : Ciseau.",
+        "operation_id": 6
+      }
+    }
+  ]
+}
